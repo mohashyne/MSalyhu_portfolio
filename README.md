@@ -5,7 +5,7 @@
   <img src="./dist/img/my-profile.jpg" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Muhammad Salyhu's Portfolio</b></h3>
+  <h3><b>MSalyhu Portfolio</b></h3>
 
 </div>
 
@@ -17,7 +17,6 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -34,8 +33,10 @@
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
+# 📖 MSalyhu-Portfolio <a name="about-project"></a>
 
-**This is the portfolio for Muhammad Aminu Salihu as a Software Developer**
+**MSalyhu-Portfolio** is a project that has information about Muhammad Aminu Salihu, it  contains his work , skills and professionalism.
+
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -57,18 +58,11 @@
 
 ### Key Features <a name="key-features"></a>
 
-> Added index.html file.
-> Added style.css file.
+- [ ] **Added index.html file**
+- [ ] **Added style.css file.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-> comming soon.
-
-- [Live Demo Link](https://google.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -91,8 +85,8 @@ Clone this repository to your desired folder:
 Run this commands:
 
 ```sh
-  cd my-folder
-  git clone https://github.com/mohashyne/MSalyhu_portfolio.git
+cd my-folder
+git clone https://github.com/mohashyne/MSalyhu_portfolio.git
 ```
 
 -
@@ -116,15 +110,6 @@ To run the project, execute the following command:
 launch index.html using live server or live preview
 ```
 
-### Run tests
-
-comming soon
-
-### Deployment
-
-You can deploy this project using:
-
-comming soon
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
