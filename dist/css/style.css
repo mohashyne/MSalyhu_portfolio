@@ -85,3 +85,46 @@ h1 {
     background: #6070ff;
     margin-bottom: 0.4rem;
   }
+
+  .hero {
+    background-image: url(../img/bg-header.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom-left-radius: 6rem;
+    display: flex;
+    flex-direction: column;
+    padding: 16rem 2.4rem;
+    height: 100%;
+    left: 2.4rem;
+    top: 27.6rem;
+  }
+  
+  
+  .info {
+    margin-top: -2rem;
+    width: 32.7rem;
+    height: 14.6rem;
+    font-size: 1.6rem;
+  }
+  
+  .social-media {
+    width: 22.5rem;
+    height: 3.4rem;
+    padding-top: 1rem; 
+  }
+  
+  .connect {
+  font-size: 1.6rem;  
+  margin-top: -3rem;
+  color: #6070ff;
+  width: 11.7rem;
+  height: 2.4rem;
+  }
+  
+  .social-media li {
+    display: inline-block;
+    padding-right: 6%;
+    justify-content: center;
+    padding-left: 0;
+    
+  }
