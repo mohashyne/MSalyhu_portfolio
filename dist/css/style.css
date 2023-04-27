@@ -294,3 +294,87 @@ h1 {
     background: #396df2;
   }
 
+  /* Skills */
+.about {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    padding: 16rem 2.4rem;
+    height: 100%;
+  }
+  
+  .resume-btn,
+  .see-btn {
+    height: 48px;
+    width: 160px;
+    left: 0;
+    top: 12px;
+    border-radius: 8px;
+    border: 1px solid #6070ff;
+    padding: 1px;
+    background: #fff;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    color: #396df2;
+    margin-top: 30px;
+  }
+  
+  .btn-2 {
+    height: 12px;
+    width: 6px;
+    left: 10px;
+    top: 6px;
+    border-radius: 0;
+    border: none;
+    background-color: #ffff;
+  }
+  
+  .close img {
+    transform:  rotate(-90deg);
+  }
+  
+  .about-self {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .about-self h2 {
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 5.2rem;
+    width: 32.7rem;
+    height: 3.5rem;
+    font-family: 'Poppins';
+    color: #172b4d;
+  }
+  
+  .about-self p {
+    border-radius: 10px;
+    padding-bottom: 1rem;
+    font-size: 16px;
+    color: #344563;
+  }
+  
+  .info {
+    height: 14.7rem;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    padding-top: 2rem;
+    color: #344563;
+    margin-bottom: 2rem;
+  }
+  
+  .about-self h3 {
+    margin: -2rem 0 0.5rem 0;
+  }
+
