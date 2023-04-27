@@ -1,4 +1,6 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
 html {
   /* 62.5% of 16px = 10px */
   font-size: 62.5%;
@@ -20,7 +22,7 @@ html {
     
 body {
   background-color: #E5E5E5;
-  font-family: "Poppins", "Trebuchet MS", sans-serif;
+  font-family: 'Poppins', "Trebuchet MS", sans-serif;
   color: #344563;
 }
 
@@ -61,12 +63,11 @@ li {
 h1 {
   font-family: 'Poppins';
   font-style: normal;
-  width: 32.7rem;
-  height: 15rem;
+  width: 34.7rem;
+  height: 12.5rem;
   font-size: 4rem;
   font-weight: 700;
   line-height: 5.2rem;
-  height: 14.7rem;
   color: #172B4D;
 }
   
@@ -96,9 +97,9 @@ h1 {
 }
     
 .info {
-  margin-top: -2rem;
+  margin-top: -5rem;
   width: 32.7rem;
-  height: 14.6rem;
+  height: 16.7rem;
   font-size: 1.6rem;
 }
   
@@ -109,14 +110,15 @@ h1 {
 }
   
 .connect {
+  margin-top: 1rem;  
   font-size: 1.6rem;  
-  margin-top: -3rem;
   color: #6070ff;
-  width: 11.7rem;
+  width: 12.7rem;
   height: 2.4rem;
 }
   
 .social-media li {
+  margin-top: 1rem;
   display: inline-block;
   padding-right: 6%;
   justify-content: center;
@@ -232,7 +234,7 @@ h1 {
   line-height: 2.4rem;
   width: 29.5rem;
   height: 7.6rem;
-  margin-bottom: -2.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .small-btn {
@@ -301,6 +303,8 @@ h1 {
   background: #fff;
   padding: 16rem 2.4rem;
   height: 100%;
+  border-top-right-radius: 80px;
+
 }
 
 .resume-btn,
@@ -364,13 +368,14 @@ h1 {
 }
 
 .info {
-  height: 14.7rem;
+  height: 16.7rem;
   font-style: normal;
   font-weight: 400;
   font-size: 1.6rem;
   line-height: 2.4rem;
   padding-top: 2rem;
   color: #344563;
+  margin-top: -2rem;
   margin-bottom: 2rem;
 }
 
