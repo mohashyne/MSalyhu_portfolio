@@ -725,7 +725,17 @@ header .logo {
   width: 100%;
 }
 
-
+.card-description {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2.4rem;
+  width: 47.5rem;
+  height: 6.6rem;
+  margin-bottom: 1.1rem;
+  margin-top: 5rem;
+}
 .card-container {
   display: flex;
   flex-direction: row;
@@ -739,6 +749,7 @@ header .logo {
   flex-direction: row-reverse;
 }
 
+
 .card-img {
   height: 90%;
   width: 50vw;
@@ -748,11 +759,33 @@ header .logo {
 .text-container {
   display: flex;
   flex-direction: column;
-  margin-top: -5rem;
+  margin-top: -4rem;
 }
 
 #card-1 .card-img {
   content: url('../img/projects/Snap-desk-Portfolio.png');
+}
+
+.desk-btn {
+  margin-bottom: 19rem;
+}
+
+.card-title {
+  line-height: 3.4rem;
+  margin-top: 7rem;
+}
+
+.small-btn {
+  line-height: 6.4rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  gap: 0.8rem;
+  margin-bottom: 4rem;
+  list-style: none;
+  width: 21.4rem;
+  height: 2.4rem;
 }
 
 /* Skills */
@@ -768,8 +801,8 @@ header .logo {
 }
 .desk-info {
   font-size: 1.6rem;
-  width: 36.7rem;
-  height: 10.2rem;
+  width: 46.7rem;
+  height: 9.2rem;
   margin-top: -2.5rem;
   margin-bottom: 6rem;
 }
@@ -822,14 +855,14 @@ header .logo {
 .desktop-about-skills {
   grid-template-columns: 40% 60%;
   padding: 9%;
-  column-gap: 5.5rem;
-  
-  .social-media {
-    width: 22.5rem;
-    height: 2.4rem;
-  }
+  column-gap: 0.5rem;
 
 } 
+
+.social-media {
+  width: 22.5rem;
+  height: 2.4rem;
+}
 
 /* Contact form */
 
@@ -837,12 +870,17 @@ header .logo {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%;
-  
-  .white {
-    width: 53rem;
-    margin-bottom: -3rem;
-  }
+  width: 100%
+
+}
+
+#contact-container h2 {
+  height: 6.2rem;
+}
+
+
+.white h2 {
+  width: 47rem;
 
 }
 
@@ -857,6 +895,11 @@ header .logo {
     margin-left: 5rem;
   }
 
+}
+
+.ctn-text {
+  width:  50rem;
+  margin-bottom: -2.8rem;
 }
 
 }
