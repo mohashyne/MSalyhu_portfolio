@@ -60,6 +60,10 @@ li {
   height: 2rem;
 }
 
+.logo:hover {
+  transform: rotate(5deg);
+}
+
 h1 {
   font-family: 'Poppins';
   font-style: normal;
