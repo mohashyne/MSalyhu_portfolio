@@ -191,6 +191,7 @@ h1 {
   height: 3.2rem;
 }
 
+
 .client,
 .card-description,
 .role,
@@ -638,6 +639,8 @@ h1 {
 }
 
 
+
+
 /* Media Queries */
 @media only screen and (min-width: 768px) {
 
@@ -706,6 +709,15 @@ h1 {
 }
 
 /* Works & Project */
+.desktop-about-skills {
+  display: grid;
+  grid-template-rows: auto auto;
+  background-color: #fff;
+  border-top-right-radius: 80px;
+  padding: 114px 24px;
+  width: 130%;
+}
+
 .grid-container-desktop {
   display: flex;
   flex-direction: row;
@@ -744,6 +756,88 @@ h1 {
 #card-1 .card-img {
   content: url('../img/projects/Snap-desk-Portfolio.png');
 }
+
+/* Skills */
+
+.about-self {
+  width:  5rem;
+  margin-right: 3rem;
+}
+
+.about-self h2{
+  height:  auto;
+  font-size: 4rem;
+  margin-top: -1rem;
+}
+.desk-info {
+  font-size: 1.6rem;
+  width: 36.7rem;
+  height: 10.2rem;
+  margin-top: -2.5rem;
+  margin-bottom: 6rem;
+}
+
+.skills__container {
+  padding-top: 0;
+}
+
+.skill__item:nth-child(1) {
+  padding: 0.8rem 1.2rem 2.4rem 1.2rem;
+}
+
+.skill__item:nth-child(2),
+.skill__item:nth-child(3) {
+  padding: 2.4rem 1.2rem;
+}
+
+.language__content {
+   display: flex;
+   flex-direction: column;
+}
+
+.language__item img {
+   width: 4.8rem;
+   height: 4.8rem;
+   top: 1.2rem;
+}
+
+.language__item p {
+   margin-top: 1rem;
+}
+
+.language__list {
+   display: flex;
+   flex-direction: row;
+   gap: 0;
+   list-style-type: none;
+}
+
+.language__list li div {
+   width: 12.2rem;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   background-color: #f7f7f9;
+   padding-top: 1.2rem;
+}
+
+
+
+.desktop-about-skills {
+  grid-template-columns: 40% 60%;
+  padding: 9%;
+  column-gap: 5.5rem;
+  
+  .social-media {
+    width: 22.5rem;
+    height: 2.4rem;
+  }
+
+} 
+
+
+
 
 
 
