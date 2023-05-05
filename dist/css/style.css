@@ -705,6 +705,46 @@ h1 {
     height: 0.4rem;
 }
 
+/* Works & Project */
+.grid-container-desktop {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2.4rem;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  width: auto;
+  background-color: #ffff;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  margin: 5%;
+  padding: 0 1rem;
+  align-items: center;
+  gap: 3rem;
+}
+
+
+#card-2,
+#card-4 {
+  flex-direction: row-reverse;
+}
+.card-img {
+   height: 90%;
+   width: 50vw;
+   margin-right: 4rem;
+}
+.text-container {
+   display: flex;
+   flex-direction: column;
+}
+
+#card-1 .card-img {
+  content: url('../img/projects/Snap-desk-Portfolio.png');
+}
+
 
 
 
