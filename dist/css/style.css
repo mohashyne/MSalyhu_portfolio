@@ -822,8 +822,6 @@ h1 {
    padding-top: 1.2rem;
 }
 
-
-
 .desktop-about-skills {
   grid-template-columns: 40% 60%;
   padding: 9%;
@@ -836,7 +834,41 @@ h1 {
 
 } 
 
+/* Contact form */
 
+#contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 130%;
+  
+  .white {
+    width: 53rem;
+    margin-bottom: -3rem;
+  }
+  
+  
+}
+
+
+.form {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  width: 58rem;
+
+  .input-div {
+    /* width:  44.7rem; */
+    width:  40vw;
+    margin-left: 5rem;
+  }
+
+}
+
+.card-img {
+  transition: transform 0.2s ease-out;
+}
 
 
 
