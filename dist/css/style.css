@@ -187,7 +187,7 @@ h1 {
   align-items: center;
   padding: 0;
   gap: 1.2rem;
-  width: 23.6rem;
+  width: 24.6rem;
   height: 3.2rem;
 }
 
@@ -732,7 +732,7 @@ header .logo {
   font-size: 1.5rem;
   line-height: 2.4rem;
   width: 47.5rem;
-  height: 6.6rem;
+  height: 5.6rem;
   margin-bottom: 1.1rem;
   margin-top: 5rem;
 }
@@ -749,6 +749,9 @@ header .logo {
   flex-direction: row-reverse;
 }
 
+.frame-two {
+  margin-bottom: -4rem;
+}
 
 .card-img {
   height: 90%;
@@ -772,7 +775,7 @@ header .logo {
 
 .card-title {
   line-height: 3.4rem;
-  margin-top: 7rem;
+  margin-top: 2rem;
 }
 
 .small-btn {
@@ -785,7 +788,7 @@ header .logo {
   margin-bottom: 4rem;
   list-style: none;
   width: 21.4rem;
-  height: 2.4rem;
+  height: 1.4rem;
 }
 
 /* Skills */
