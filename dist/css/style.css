@@ -638,8 +638,16 @@ h1 {
   display: none;
 }
 
-
-
+.grid-container-desktop {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2.4rem;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  width: auto;
+  background-color: #ffff;
+}
 
 /* Media Queries */
 @media only screen and (min-width: 768px) {
@@ -691,8 +699,9 @@ header .logo {
 .desk-hero {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   margin-top: 16rem;
+  margin-left: 12rem;
 }
 .info {
   margin-top: -3rem;
@@ -713,19 +722,9 @@ header .logo {
   background-color: #fff;
   border-top-right-radius: 80px;
   padding: 114px 24px;
-  width: 130%;
+  width: 100%;
 }
 
-.grid-container-desktop {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap: 2.4rem;
-  border: 1px solid #dfe1e6;
-  border-radius: 16px;
-  width: auto;
-  background-color: #ffff;
-}
 
 .card-container {
   display: flex;
@@ -733,7 +732,6 @@ header .logo {
   margin: 5%;
   padding: 0 1rem;
   align-items: center;
-  gap: 3rem;
 }
 
 #card-2,
@@ -750,6 +748,7 @@ header .logo {
 .text-container {
   display: flex;
   flex-direction: column;
+  margin-top: -5rem;
 }
 
 #card-1 .card-img {
@@ -838,7 +837,7 @@ header .logo {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 130%;
+  width: 100%;
   
   .white {
     width: 53rem;
