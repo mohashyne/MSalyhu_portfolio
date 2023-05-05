@@ -186,7 +186,7 @@ h1 {
   flex-direction: row;
   align-items: center;
   padding: 0;
-  gap: 1.2rem;
+  gap: 1rem;
   width: 24.6rem;
   height: 3.2rem;
 }
@@ -733,8 +733,7 @@ header .logo {
   line-height: 2.4rem;
   width: 47.5rem;
   height: 5.6rem;
-  margin-bottom: 1.1rem;
-  margin-top: 5rem;
+  margin-top: 2rem;
 }
 .card-container {
   display: flex;
