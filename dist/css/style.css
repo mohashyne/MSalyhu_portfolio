@@ -632,3 +632,80 @@ h1 {
 .in-touch {
   margin-top: 1.5rem;
 }
+
+.desktop-menu {
+  display: none;
+}
+
+
+/* Media Queries */
+@media only screen and (min-width: 768px) {
+
+  header {
+    padding: 1.5% 9%;
+    position: fixed;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #6070ff;
+    border-radius: 0 0 1.5rem 1.5rem;
+  }
+  
+  .desktop-menu {
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    align-items: center;
+    text-align: center;
+    color: #344563;
+    gap: 10%;
+    background-color: #ffff;
+    padding: 1rem 1.2rem;
+    padding-right: 8%;
+    cursor: pointer;
+  }
+
+  .burger {
+    display: none;
+  }
+   
+  header .logo {
+    display: flex;
+    align-items: center;
+    padding-left: 7%;
+  }
+  
+  .lg-heading{
+    margin-top: -5rem;
+  }
+
+  .hero {
+    width: 100vw;
+  }
+
+  .desk-hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 16rem;
+  }
+
+  .info {
+    margin-top: -3rem;
+    width: 52.7rem;
+    height: auto;
+    position: center;
+
+  }
+
+  .social-media {
+    width: 22.5rem;
+    height: 0.4rem;
+}
+
+
+
+
+}
