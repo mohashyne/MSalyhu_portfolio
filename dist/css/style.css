@@ -644,68 +644,66 @@ h1 {
 /* Media Queries */
 @media only screen and (min-width: 768px) {
 
-  header {
-    padding: 1.5% 9%;
-    position: fixed;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    border-bottom: 1px solid #6070ff;
-    border-radius: 0 0 1.5rem 1.5rem;
-  }
-  
-  .desktop-menu {
-    display: flex;
-    font-family: "Poppins", sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 1.5rem;
-    line-height: 2rem;
-    align-items: center;
-    text-align: center;
-    color: #344563;
-    gap: 10%;
-    background-color: #ffff;
-    padding: 1rem 1.2rem;
-    padding-right: 8%;
-    cursor: pointer;
-  }
+header {
+  padding: 1.5% 9%;
+  position: fixed;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #6070ff;
+  border-radius: 0 0 1.5rem 1.5rem;
+}
 
-  .burger {
-    display: none;
-  }
-   
-  header .logo {
-    display: flex;
-    align-items: center;
-    padding-left: 7%;
-  }
-  
-  .lg-heading{
-    margin-top: -5rem;
-  }
+.desktop-menu {
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  align-items: center;
+  text-align: center;
+  color: #344563;
+  gap: 10%;
+  background-color: #ffff;
+  padding: 1rem 1.2rem;
+  padding-right: 8%;
+  cursor: pointer;
+}
 
-  .hero {
-    width: 100vw;
-  }
+.burger {
+  display: none;
+}
+ 
+header .logo {
+  display: flex;
+  align-items: center;
+  padding-left: 7%;
+}
 
-  .desk-hero {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 16rem;
-  }
+.lg-heading{
+  margin-top: -5rem;
+}
 
-  .info {
-    margin-top: -3rem;
-    width: 52.7rem;
-    height: auto;
-    position: center;
+.hero {
+  width: 100vw;
+}
 
-  }
+.desk-hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 16rem;
+}
+.info {
+  margin-top: -3rem;
+  width: 52.7rem;
+  height: auto;
+  position: center;
+}
 
-  .social-media {
-    width: 22.5rem;
-    height: 0.4rem;
+.social-media {
+  width: 22.5rem;
+  height: 0.4rem;
 }
 
 /* Works & Project */
@@ -738,19 +736,20 @@ h1 {
   gap: 3rem;
 }
 
-
 #card-2,
 #card-4 {
   flex-direction: row-reverse;
 }
+
 .card-img {
-   height: 90%;
-   width: 50vw;
-   margin-right: 4rem;
+  height: 90%;
+  width: 50vw;
+  margin-right: 4rem;
 }
+
 .text-container {
-   display: flex;
-   flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 #card-1 .card-img {
@@ -758,7 +757,6 @@ h1 {
 }
 
 /* Skills */
-
 .about-self {
   width:  5rem;
   margin-right: 3rem;
@@ -813,13 +811,13 @@ h1 {
 }
 
 .language__list li div {
-   width: 12.2rem;
-   height: 100%;
-   display: flex;
-   flex-direction: column;
-   justify-content: space-around;
-   background-color: #f7f7f9;
-   padding-top: 1.2rem;
+  width: 12.2rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #f7f7f9;
+  padding-top: 1.2rem;
 }
 
 .desktop-about-skills {
@@ -846,32 +844,20 @@ h1 {
     width: 53rem;
     margin-bottom: -3rem;
   }
-  
-  
-}
 
+}
 
 .form {
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   align-items: center;
   width: 58rem;
 
   .input-div {
-    /* width:  44.7rem; */
     width:  40vw;
     margin-left: 5rem;
   }
 
 }
-
-.card-img {
-  transition: transform 0.2s ease-out;
-}
-
-
-
-
 
 }
