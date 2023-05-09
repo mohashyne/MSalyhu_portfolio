@@ -50,8 +50,8 @@
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://mohashyne.github.io/MSalyhu_portfolio/">HTML</a></li>
-    <li><a href="https://mohashyne.github.io/MSalyhu_portfolio/">CSS</a></li>
+    <li><a href="https://mohashyne.github.io/">HTML</a></li>
+    <li><a href="https://mohashyne.github.io/">CSS</a></li>
   </ul>
 </details>
 
@@ -67,7 +67,7 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [https://mohashyne.github.io/MSalyhu_portfolio/]
+- [https://mohashyne.github.io/]
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
