@@ -50,8 +50,8 @@
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://MSalyhu.com/">HTML</a></li>
-    <li><a href="https://MSalyhu.com/">CSS</a></li>
+    <li><a href="https://mohashyne.github.io/MSalyhu_portfolio/">HTML</a></li>
+    <li><a href="https://mohashyne.github.io/MSalyhu_portfolio/">CSS</a></li>
   </ul>
 </details>
 
