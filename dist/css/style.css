@@ -27,20 +27,11 @@ body {
 }
 
 /* Header & Hero */
-header,
-.hero {
+header{
   background-color: #fff;
 }
 
-a {
-  text-decoration: none;
-}
-
-li {
-  list-style-type: none;
-}
-
-.menu {
+.header {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
@@ -51,6 +42,19 @@ li {
   align-items: center;
 }
 
+header ul{
+  display:none;
+}
+
+header ul li {
+  list-style-type: none;
+}
+
+header ul li a {
+  text-decoration: none;
+}
+
+
 .logo {
   font-size: 1.8rem;
   text-align: center;
@@ -58,6 +62,7 @@ li {
   font-weight: 700;
   line-height: 2rem;
   height: 2rem;
+  text-decoration: none;
 }
 
 h1 {
@@ -83,7 +88,68 @@ h1 {
   margin-bottom: 0.4rem;
 }
 
+/* Menu JavaSccript Manimulation */
+.header-active {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  background: rgba(96, 112, 255, 0.9);
+  }
+
+.header-active ul {
+  height: 250px;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-top: 70px;
+  padding-left: 10%;
+  list-style: none;
+}
+
+.header-active ul li a {
+  font-weight: 600;
+  font-size: 3.2rem;
+  line-height: 4.4rem;
+  text-decoration: none;
+  color: white;
+}
+
+.burger-active {
+  width: 18px;
+  height: 18px;
+  position:absolute;
+  top:35px;
+  left:90%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  box-sizing: border-box;
+  cursor: pointer;
+  z-index:5;
+}
+
+.burger-active .top {
+  border-radius: 20px;
+  height: 2px;
+  background-color: white;
+  transform: rotate(45deg) translateY(8px);
+  transition: all 0.3s ease;
+}
+
+.burger-active .bot {
+  border-radius: 20px;
+  height: 2px;
+  background-color:  white;
+  transform: rotate(-45deg) translateY(-8px);
+  transition: all 0.3s ease;
+}
+/* ------------- */
+
 .hero {
+  background-color: #fff;
   background-image: url(../img/bg-header.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -661,7 +727,7 @@ header {
   border-radius: 0 0 1.5rem 1.5rem;
 }
 
-.desktop-menu {
+.header ul {
   display: flex;
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -769,7 +835,7 @@ header .logo {
 }
 
 .desk-btn {
-  margin-bottom: 5rem;
+  margin-bottom: 19rem;
 }
 
 .card-title {

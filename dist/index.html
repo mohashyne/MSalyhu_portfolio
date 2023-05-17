@@ -8,34 +8,42 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
-<body>
-    <div class="container desk-container">
-        <header class="menu">
-            <a href="#" class="logo">Crystal logo</a>
-            <nav class="burger">
-              <span></span>
-              <span></span>
-              <span></span>
-            </nav>
-            <nav class="desktop-menu">
-              <a href="#">Portfolio</a>
-              <a href="#">About</a>
-              <a href="#">Contact</a>
-          </nav>
-          </header>
-      <section class="hero">
-            <div class="desk-hero">
-              <div class="deesk-hero-details">
-            <h1 class="lg-heading">
-              I'm Muhammad. <br />
-              Glad to see you!
-            </h1>
-            <p class="info">
-              I'm a software developer! I can help you build a product , feature
-              or website Look through some of my work and experience! If you
-              like what you see and have a project you need coded, don't
-              hesitate to contact me.
-            </p>
+<body id="bg-img">
+  <div class="container desk-container">
+
+    <header id="header" class="header">
+
+      <a href="#" class="logo">Crystal logo</a>
+
+      <ul>
+        <li><a href="#projects" onclick="toggleMenu()">Portfolio</a></li>
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#form-section" onclick="toggleMenu()">Contact</a></li>
+      </ul>
+       
+
+        <div id="burger" class="burger">
+          <span class="bar top"></span>
+          <span class="bar mid"></span>
+          <span class="bar bot"></span>
+        </div>
+        
+      </header>
+
+
+  <section id="main" class="hero">
+        <div class="desk-hero">
+          <div class="deesk-hero-details">
+        <h1 class="lg-heading">
+          I'm Muhammad. <br />
+          Glad to see you!
+        </h1>
+        <p class="info">
+          I'm a software developer! I can help you build a product , feature
+          or website Look through some of my work and experience! If you
+          like what you see and have a project you need coded, don't
+          hesitate to contact me.
+        </p>
           
               <div>
                 <h2 href="#" class="connect">LET'S CONNECT</h2>
