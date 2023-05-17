@@ -26,6 +26,7 @@ body {
   color: #344563;
 }
 
+
 /* Header & Hero */
 header{
   background-color: #fff;
@@ -53,7 +54,6 @@ header ul li {
 header ul li a {
   text-decoration: none;
 }
-
 
 .logo {
   font-size: 1.8rem;
@@ -88,11 +88,21 @@ h1 {
   margin-bottom: 0.4rem;
 }
 
+.container {
+  position: relative;
+  z-index: 1;
+  transition: filter 0.3s ease-in-out;
+}
+
+.container.blur {
+  filter: blur(5px);
+}
+
 /* Menu JavaSccript Manimulation */
 .header-active {
+  position: absolute;
   width: 100vw;
   height: 100vh;
-  position: absolute;
   background: rgba(96, 112, 255, 0.9);
   }
 

@@ -1,6 +1,7 @@
 // Dom  items
 const header = document.querySelector('#header');
 const burger = document.querySelector('#burger');
+const content = document.querySelector('#content');
 
 let showMenu = false;
 
@@ -10,8 +11,9 @@ function toggleMenu() {
     header.classList.add('header-active');
     burger.classList.remove('burger');
     burger.classList.add('burger-active');
+    content.classList.add('blur');
     document.body.style.overflowY = 'hidden';
-
+   
     // set  menu state
     showMenu = true;
   } else {
