@@ -720,6 +720,35 @@ h1 {
   background-color: #ffff;
 }
 
+/* form control */
+.form-control input:focus {
+  outline: 0;
+
+  border-color: #777;
+}
+
+.form-control.success input {
+  border-color: var(--success-color);
+}
+
+.form-control.error input {
+  border-color: var(--error-color);
+}
+
+.form-control small {
+  color: var(--error-color);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  /* we want it to only show when something happens */
+  visibility: hidden;
+}
+
+
+.form-control.error small {
+  visibility: visible;
+}
+
 /* Media Queries */
 @media only screen and (min-width: 768px) {
 
