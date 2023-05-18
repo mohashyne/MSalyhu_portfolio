@@ -6,35 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Muhammad Salyhu</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
-    <div class="container desk-container">
-        <header class="menu">
-            <a href="#" class="logo">Crystal logo</a>
-            <nav class="burger">
-              <span></span>
-              <span></span>
-              <span></span>
-            </nav>
-            <nav class="desktop-menu">
-              <a href="#">Portfolio</a>
-              <a href="#">About</a>
-              <a href="#">Contact</a>
-          </nav>
-          </header>
-      <section class="hero">
-            <div class="desk-hero">
-              <div class="deesk-hero-details">
-            <h1 class="lg-heading">
-              I'm Muhammad. <br />
-              Glad to see you!
-            </h1>
-            <p class="info">
-              I'm a software developer! I can help you build a product , feature
-              or website Look through some of my work and experience! If you
-              like what you see and have a project you need coded, don't
-              hesitate to contact me.
-            </p>
+  <div class="container desk-container" id="content">
+
+    <header id="header" class="header">
+
+      <a href="#" class="logo">Crystal logo</a>
+
+      <ul>
+        <li><a href="#projects" onclick="toggleMenu()">Portfolio</a></li>
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#form-section" onclick="toggleMenu()">Contact</a></li>
+      </ul>
+       
+        <div id="burger" class="burger">
+          <span class="bar top"></span>
+          <span class="bar mid"></span>
+          <span class="bar bot"></span>
+        </div>
+        
+      </header>
+
+
+  <section id="main" class="hero">
+        <div class="desk-hero">
+          <div class="deesk-hero-details">
+        <h1 class="lg-heading">
+          I'm Muhammad. <br />
+          Glad to see you!
+        </h1>
+        <p class="info">
+          I'm a software developer! I can help you build a product , feature
+          or website Look through some of my work and experience! If you
+          like what you see and have a project you need coded, don't
+          hesitate to contact me.
+        </p>
           
               <div>
                 <h2 href="#" class="connect">LET'S CONNECT</h2>
@@ -69,11 +77,11 @@
           </section>
 
 
-          <section class="works-card">
+          <section class="works-card" id="projects">
               <div class="grid-container grid-container-desktop">
-                <div class="card-container" id="card-1">
+                <div class="card-container" id="card-1" data-aos="fade-right">
                   <div>
-                    <img class="card-img" src="./img/projects/Snapshoot Portfolio_1.png" alt="photo of my 1st project" />
+                    <img class="card-img" src="./img/projects/Snapshoot Portfolio_1.png" alt="photo of my 1st project" data-aos="zoom-in-left"/>
                   </div>
                     <div class="text-container">
                         <h2 class="card-title">Tonic</h3>
@@ -96,9 +104,9 @@
                   </div>
                   
              <div class="grid-container grid-container-desktop">
-                    <div class="card-container" id="card-2">
+                    <div class="card-container" id="card-2" data-aos="fade-right">
                       <div>
-                        <img class="card-img" src="./img/projects/Snapshoot Portfolio_2.png" alt="photo of my 1st project" />
+                        <img class="card-img" src="./img/projects/Snapshoot Portfolio_2.png" alt="photo of my 1st project" data-aos="zoom-in-left"/>
                       </div>
                          <div class="text-container">
                            <h2 class="card-title">Multi-Post <br> Stories</h3>
@@ -121,9 +129,9 @@
                   </div> 
           
               <div class="grid-container grid-container-desktop">
-                    <div class="card-container" id="card-3">
+                    <div class="card-container" id="card-3" data-aos="fade-right">
                       <div>
-                        <img class="card-img" src="./img/projects/Snapshoot Portfolio_3.png" alt="photo of my 1st project" />
+                        <img class="card-img" src="./img/projects/Snapshoot Portfolio_3.png" alt="photo of my 1st project" data-aos="zoom-in-left"/>
                       </div>
                          <div class="text-container">
                            <h2 class="card-title">Tonic</h3>
@@ -146,9 +154,9 @@
                   </div> 
           
               <div class="grid-container grid-container-desktop">
-                    <div class="card-container" id="card-4">
+                    <div class="card-container" id="card-4" data-aos="fade-right">
                       <div>
-                        <img class="card-img" src="./img/projects/Snapshoot Portfolio_4.png" alt="photo of my 1st project" />
+                        <img class="card-img" src="./img/projects/Snapshoot Portfolio_4.png" alt="photo of my 1st project" data-aos="zoom-in-left"/>
                       </div>
                          <div class="text-container">
                            <h2 class="card-title">Multi-Post <br> Stories</h3>
@@ -171,7 +179,7 @@
                   </div> 
           </section>
 
-          <section  class="my-skills">
+          <section  class="my-skills" id="about">
             <div class="about about-skills desktop-about-skills"> 
                 <div class="about-self">
                   <div><h2 class="heading">About  Myself</h2></div>
@@ -292,8 +300,12 @@
                 </form>
               </div>
             </section>
-
-
     </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="main.js"></script>
 </body>
 </html>

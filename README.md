@@ -43,6 +43,7 @@
 
 1-HTML.
 2-CSS.
+3-JavaScript.
 3-LINTERS.
 
 ### Tech Stack <a name="tech-stack"></a>
@@ -52,6 +53,7 @@
   <ul>
     <li><a href="https://mohashyne.github.io/">HTML</a></li>
     <li><a href="https://mohashyne.github.io/">CSS</a></li>
+    <li><a href="https://mohashyne.github.io/">JavaScript</a></li>
   </ul>
 </details>
 
@@ -61,6 +63,7 @@
 
 - [ ] **Added index.html file**
 - [ ] **Added style.css file.**
+- [ ] **Added main.js file.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -169,6 +172,7 @@ Please note that it may take a few moments for GitHub Pages to build and deploy 
 - [ ] [Add Main]
 - [ ] [Add footer]
 - [ ] [Add styling]
+- [ ] [Add JavaScript functions]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
