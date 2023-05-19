@@ -31,14 +31,14 @@ burger.addEventListener('click', toggleMenu);
 
 
 // Pop-up window
-const seeProjectBtn = document.querySelector('.project-btn');
-const popupOverlay = document.querySelector('.popup-overlay');
-const closeBtn = document.querySelector('.close-btn');
+// const seeProjectBtn = document.querySelector('.project-btn');
+// const popupOverlay = document.querySelector('.popup-overlay');
+// const closeBtn = document.querySelector('.close-btn');
 
-seeProjectBtn.addEventListener('click', () => {
-  popupOverlay.style.display = 'flex';
-});
+// seeProjectBtn.addEventListener('click', () => {
+//   popupOverlay.style.display = 'flex';
+// });
 
-closeBtn.addEventListener('click', () => {
-  popupOverlay.style.display = 'none';
-});
+// closeBtn.addEventListener('click', () => {
+//   popupOverlay.style.display = 'none';
+// });
