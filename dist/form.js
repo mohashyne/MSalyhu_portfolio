@@ -7,7 +7,7 @@ form.addEventListener('submit', e => {
   e.preventDefault();
   
   // validation
-  const fullName = form.fullname.value;
+  const fullName = form.fullname.value
   const fullNamePattern = /^[A-Za-z]{6,20}$/;  
   if(fullNamePattern.test(fullName)){
     feedBack.textContent = `${fullName} is  valid`;
@@ -16,6 +16,9 @@ form.addEventListener('submit', e => {
     feedBack.textContent = `${fullName} is  inValid`
     feedBack.style.borderColor = '#fc0b03';
   }
+
+    // set local storage
+    localStorage.setItem('fullName', fullName);
    
 })
 
