@@ -8,6 +8,7 @@ form.addEventListener('submit', e => {
   
   // validation
   const fullName = form.fullname.value
+  const text = form.message.value
   const fullNamePattern = /^[A-Za-z]{6,20}$/;  
   if(fullNamePattern.test(fullName)){
     feedBack.textContent = `${fullName} is  valid`;
@@ -19,6 +20,6 @@ form.addEventListener('submit', e => {
 
     // set local storage
     localStorage.setItem('fullName', fullName);
-   
+    localStorage.setItem('text', text);
 })
 
