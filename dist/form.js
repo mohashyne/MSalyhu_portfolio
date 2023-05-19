@@ -1,8 +1,6 @@
 const form = document.querySelector('#form');
 const feedBack = document.querySelector('.feedback');
 
-
-
 form.addEventListener('submit', e => {
   e.preventDefault();
   
