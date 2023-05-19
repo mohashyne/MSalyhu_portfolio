@@ -8,6 +8,7 @@ form.addEventListener('submit', e => {
   
   // validation
   const fullName = form.fullname.value
+  const email = form.email.value;
   const text = form.message.value
   const fullNamePattern = /^[A-Za-z]{6,20}$/;  
   if(fullNamePattern.test(fullName)){
@@ -20,6 +21,7 @@ form.addEventListener('submit', e => {
 
     // set local storage
     localStorage.setItem('fullName', fullName);
+    localStorage.setItem('email', email);
     localStorage.setItem('text', text);
 })
 
