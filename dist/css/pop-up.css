@@ -64,7 +64,7 @@
   .card__img {
     width: 100%;
     height: 100%;
-    padding-block: 10%;
+    padding-block: 0;
   }
   
   .card__details {
@@ -73,6 +73,7 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: flex-start;
+    margin-top: -11rem;
   }
   
   .card__text {
@@ -162,8 +163,6 @@
   
     /* add a smooth transition effect */
     transition: transform 0.3s ease-in-out;
-  
-  
   }
   
   @media screen and (min-width: 768px) {

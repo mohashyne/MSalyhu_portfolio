@@ -3,31 +3,29 @@ const projects = [
     {
       name: 'Tonic',
       description:
-              'Tonic uses REST APIs to protect endpoints by using two techniques: tokens and sessions.',
+              'A daily selection of privately personalized reads; no accounts or sign-ups required.',
       image: './img/projects/Snapshoot Portfolio.svg',
       technologies: ['Node.js', 'Express.js', 'JWT', 'Redis'],
       liveLink: 'https://example.com',
       sourceLink: 'https://github.com/mohashyne/MSalyhu_portfolio.git',
       projectCover: './img/projects/Snapshoot Portfolio.svg',
       fullDescription: `
-              Tonic uses REST APIs to protect endpoints by using two techniques: tokens and sessions.
-              The session is connected to the Redis and Mongo databases. 
-              The token is linked to MongoDB.
+              A daily selection of privately personalized reads; no accounts or sign-ups required..
+              A daily selection of privately personalized reads; no accounts or sign-ups required.
           `,
       canopy: ['Backend DEV', 2023],
     },
     {
       name: 'Multi-Post',
       description:
-              "Affable manages your Blog through REST API and you can also see others' Blogs.",
+              "A daily selection of privately personalized reads; no accounts or sign-ups required.",
       image: './img/projects/Snapshoot Portfolio (1).svg',
       technologies: ['Node.js', 'TypeScript', 'Docker'],
       liveLink: 'https://example.com',
       sourceLink: 'https://github.com/mohashyne/MSalyhu_portfolio.git',
       projectCover: './img/projects/Snapshoot Portfolio (1).svg',
       fullDescription: `
-              Multi-Post is a powerful platform that allows you to manage your blog with
-              ease and efficiency through a RESTful API.
+              Multi-Post A daily selection of privately personalized reads; no accounts or sign-ups required, no accounts or sign-ups.
           `,
       canopy: ['Backend DEV', 2022],
     },
