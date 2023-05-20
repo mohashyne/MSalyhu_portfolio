@@ -42,7 +42,7 @@ const projects = [
   
               <h3 class="popup__name">${projects[index].name}</h3>
               <button type="button" class="popup__exit">
-                  <img src="images/icons8-close_black.svg" alt="">
+                  <img src="./img/icons/icons8-close_black.svg" alt="">
               </button>
   
               <div class="card__canopy-header popup__canopy">
