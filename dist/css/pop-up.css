@@ -266,6 +266,58 @@
 
   
   @media screen and (min-width: 768px) {
+    .contact {
+      background-image: url('../images/desktop/contact_shapes.svg'), url('../images/desktop/contact_background.svg');
+      background-position: center top;
+      background-size: 90%, cover;
+      background-repeat: no-repeat;
+    }
+  
+    .contact__form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 2vh;
+      padding-bottom: 10vh;
+      width: 90%;
+      box-sizing: border-box;
+    }
+  
+    .contact__name,
+    .contact__email,
+    .contact__message {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      width: 100%;
+      margin-bottom: 1rem;
+    }
+  
+    .contact__name input,
+    .contact__email input {
+      width: 447px;
+      height: 48px;
+      margin-right: 0;
+    }
+  
+    .contact__form__desc {
+      width: 569px;
+      height: 102px;
+    }
+  
+    .contact__message textarea {
+      width: 447px;
+      height: 170px;
+    }
+  
+    .error-message {
+      color: red;
+      font-size: 1.6rem;
+      width: 40rem;
+    }
+  }
+
+
   .popup {
     position: fixed;
     top: 50%;
