@@ -341,35 +341,6 @@ h1 {
   letter-spacing: 0.03em;
 }
 
-.project-btn {
-  height: 4.8rem;
-  width: 12.6rem;
-  left: 0;
-  top: 1.2rem;
-  border-radius: 8px;
-  border: 0.1rem solid #6070ff;
-  padding: 1.2rem;
-  background: #fff;
-  box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 1.6rem;
-  line-height: 2.4rem;
-  color: #396df2;
-  cursor: pointer;
-}
-
-.project-btn:hover {
-  background-color: #6070ff;
-  color: #fff;
-  border: 1px solid #fff;
-}
-
-.project-btn:active {
-  background: #396df2;
-}
-
   /* Skills */
 .about {
   display: flex;

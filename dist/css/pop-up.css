@@ -1,14 +1,30 @@
-
-.btn {
-    font-size: 1.7rem;
-    font-weight: 500;
-    text-align: center;
-    padding: 1.2rem;
-    color: #396df2;
-    border: 1px solid #396df2;
+.project-btn {
+    height: 4.8rem;
+    width: 12.6rem;
+    left: 0;
+    top: 1.2rem;
     border-radius: 8px;
-    margin-top: 15px;
-    transition: 0.6s;
+    border: 0.1rem solid #6070ff;
+    padding: 1.2rem;
+    background: #fff;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    color: #396df2;
+    cursor: pointer;
+  }
+  
+  .project-btn:hover {
+    background-color: #6070ff;
+    color: #fff;
+    border: 1px solid #fff;
+  }
+  
+  .project-btn:active {
+    background: #396df2;
   }
   
   .btn--green {
@@ -16,15 +32,6 @@
     border: 1px solid #396df2;
     border-radius: 8px;
     margin-left: 20px;
-  }
-  
-  .btn:hover {
-    box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
-  }
-  
-  .btn:active {
-    background-color: #396df2;
-    color: #fff;
   }
   
   /* Work Section */
@@ -153,10 +160,10 @@
   .card__imgbox:hover img {
     transform: scale(1.1);
   
-    /* increase the size by 10% */
+    /* add a smooth transition effect */
     transition: transform 0.3s ease-in-out;
   
-    /* add a smooth transition effect */
+  
   }
   
   @media screen and (min-width: 768px) {
