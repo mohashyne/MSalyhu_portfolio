@@ -22,7 +22,6 @@
         <li><a href="#form-section" onclick="toggleMenu()">Contact</a></li>
       </ul>
        
-
         <div id="burger" class="burger">
           <span class="bar top"></span>
           <span class="bar mid"></span>
@@ -79,13 +78,12 @@
           </section>
 
 
-          <section class="work"  id="portfolio">
+          <section class="works-card"  id="projects">
             <div class="overlay hidden"></div>
             <ul class="card__container"></ul>
           </section>
-
-
-          <section  class="my-skills">
+          
+          <section  class="my-skills" id="about">
             <div class="about about-skills desktop-about-skills"> 
                 <div class="about-self">
                   <div><h2 class="heading">About  Myself</h2></div>
@@ -168,7 +166,6 @@
             </div>
           </section>
           
-          
 
             <section id="form-section">
               <div id="contact-container">
@@ -179,23 +176,27 @@
                     I’d love to help with it! </p>
                 </div>
                 <form class="form" id="form" action="https://formspree.io/f/mvonwjon" method="post">
+                  <div class="feedback"></div>
                   <div class="inputs">
                     <ul id="contactInGrid">
                       <li>
-                        <div class="input-div">
-                          <input type="text" name="name" maxlength="30" required="true" placeholder="Your Name" />
+                        <div class="input-div form-control">
+                          <input id="fullname" type="text" name="name" maxlength="30" required="true" placeholder="Your Name" />
+                          <span class="checkmark"></span>
                         </div>
                       </li>
                       <li>
-                        <div class="input-div">
+                        <div class="input-div form-control">
                           <input id="mail" type="email" name="email" required="true" placeholder="Your email Address"
                           maxlength="500"/>
+                          <span class="checkmark"></span>
                         </div>
                       </li>
                       <li>
-                        <div id="maxText" class="input-div">
+                        <div id="maxText" class="input-div form-control">
                           <textarea name="message" required="true" id="message" maxlength="500"
                           placeholder="Write your message here..." rows="10"></textarea>
+                          <span class="checkmark"></span>
                         </div>
                       </li>
                     </ul>
@@ -209,43 +210,12 @@
             </section>
     </div>
 
-
-    <!-- Pop-up content-->
-    <!-- <div class="popup-overlay">
-      <div class="popup-content">
-          <div class="card-container" id="card-4" data-aos="fade-right">
-            <div>
-              <div class="frame-two">
-                <p class="client">CANOPY</p>
-                <img src="./img/Counter.png" alt="Counter">
-                <p class="role">Back End Dev</p>
-                <img src="./img/Counter.png" alt="Counter">
-                <p class="role">2023</p>
-              </div>
-              <img class="card-img" src="./img/projects/Snapshoot Portfolio_4.png" alt="photo of my 1st project" data-aos="zoom-in-left"/>
-            </div>
-               <div class="text-container">
-                 <h2 class="card-title">Multi-Post <br> Stories</h3>
-                 <p class="card-description">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-                 <ul class="small-btn">
-                   <li class="tag-description">HTML</li>
-                   <li class="tag-description">CSS</li>
-                   <li class="tag-description">JAVASCRIPT</li>
-                 </ul>
-                 <button type="button" class="project-btn desk-btn">See project</button>
-              
-               </div>
-          </div>
-
-        <button class="close-btn">Close</button>
-      </div>
-    </div> -->
-
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init();
     </script>
     <script src="main.js"></script>
+    <script src="form.js"></script>
     <script src="pop-up.js"></script>
 </body>
 </html>

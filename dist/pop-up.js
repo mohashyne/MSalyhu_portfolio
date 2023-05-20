@@ -34,7 +34,7 @@ const projects = [
   ];
   
   function openPopup(index) {
-    const section = document.querySelector('.work');
+    const section = document.querySelector('.work-card');
     const overlay = document.querySelector('.overlay');
     const technologiesList = projects[index].technologies.map((tech) => `<li>${tech}</li>`).join('');
     const canopyList = projects[index].canopy.map((elem) => `<li>${elem}</li>`).join('');
@@ -134,7 +134,7 @@ const projects = [
   
   document.addEventListener('DOMContentLoaded', () => {
     createCard();
-    document.querySelectorAll('.work .btn').forEach((btn, index) => {
+    document.querySelectorAll('.work-card .btn').forEach((btn, index) => {
       btn.addEventListener('click', () => {
         openPopup(index);
       });
