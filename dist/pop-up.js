@@ -4,11 +4,11 @@ const projects = [
       name: 'Tonic',
       description:
               'Tonic uses REST APIs to protect endpoints by using two techniques: tokens and sessions.',
-      image: './img/projects/Snapshoot Portfolio_4.png',
+      image: './img/projects/Snapshoot Portfolio_1.png',
       technologies: ['Node.js', 'Express.js', 'JWT', 'Redis'],
       liveLink: 'https://example.com',
       sourceLink: 'https://github.com/mohashyne/MSalyhu_portfolio.git',
-      projectCover: './img/projects/Snapshoot Portfolio_4.png',
+      projectCover: './img/projects/Snapshoot Portfolio_1.png',
       fullDescription: `
               Tonic uses REST APIs to protect endpoints by using two techniques: tokens and sessions.
               The session is connected to the Redis and Mongo databases. 
