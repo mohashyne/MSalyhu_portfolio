@@ -4,11 +4,11 @@ const projects = [
       name: 'Tonic',
       description:
               'Tonic uses REST APIs to protect endpoints by using two techniques: tokens and sessions.',
-      image: './img/projects/Snapshoot Portfolio_1.png',
+      image: './img/projects/Snapshoot Portfolio.svg',
       technologies: ['Node.js', 'Express.js', 'JWT', 'Redis'],
       liveLink: 'https://example.com',
       sourceLink: 'https://github.com/mohashyne/MSalyhu_portfolio.git',
-      projectCover: './img/projects/Snapshoot Portfolio_1.png',
+      projectCover: './img/projects/Snapshoot Portfolio.svg',
       fullDescription: `
               Tonic uses REST APIs to protect endpoints by using two techniques: tokens and sessions.
               The session is connected to the Redis and Mongo databases. 
@@ -19,12 +19,12 @@ const projects = [
     {
       name: 'Multi-Post',
       description:
-              "Multi-Post manages your Blog through REST API and you can also see others' Blogs.",
-      image: './img/projects/Snapshoot Portfolio_4.png',
+              "Affable manages your Blog through REST API and you can also see others' Blogs.",
+      image: './img/projects/Snapshoot Portfolio (1).svg',
       technologies: ['Node.js', 'TypeScript', 'Docker'],
       liveLink: 'https://example.com',
       sourceLink: 'https://github.com/mohashyne/MSalyhu_portfolio.git',
-      projectCover: './img/projects/Snapshoot Portfolio_4.png',
+      projectCover: './img/projects/Snapshoot Portfolio (1).svg',
       fullDescription: `
               Multi-Post is a powerful platform that allows you to manage your blog with
               ease and efficiency through a RESTful API.
