@@ -41,11 +41,11 @@
   }
   
   .card__container {
-    display: -ms-grid;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 3rem;
     justify-content: center;
+    padding-top: 12rem;
   }
   
   .card {
@@ -64,16 +64,17 @@
   .card__img {
     width: 100%;
     height: 100%;
+    margin-top: -6rem;
     padding-block: 0;
   }
   
   .card__details {
-    height: 50%;
+    height: 40%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: flex-start;
-    margin-top: -11rem;
+    margin-top: -16rem;
   }
   
   .card__text {
@@ -84,6 +85,7 @@
     color: #172b4d;
     text-transform: capitalize;
     align-items: flex-start;
+    margin-top: -7rem;
   }
   
   .card__list,
@@ -93,6 +95,7 @@
     flex-wrap: wrap;
     overflow: hidden;
     margin-left: 15px;
+    margin-top: -3rem;
   }
   
   .card__canopy-list li::before {
@@ -117,6 +120,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    margin-top: -2rem;
   }
   
   .card__canopy-title {
