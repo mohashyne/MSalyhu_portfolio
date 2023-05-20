@@ -160,6 +160,7 @@
     padding: 0.8rem 1.2rem;
     float: left;
     margin-right: 10px;
+    list-style-type: none;
   }
   
   .card__imgbox:hover img {
@@ -267,6 +268,7 @@
       font-size: 1.8rem;
       color: #6b778c;
       font-weight: 400;
+      list-style-type: none;
     }
   
     .btn {
