@@ -102,7 +102,7 @@ const projects = [
   
                   <div class="card__imgbox">
                       <img src="${project.projectCover}" alt="Lock-app"
-                       class="card__img">
+                       class="card__img img">
                   </div>
   
                   <div class="card__details">
