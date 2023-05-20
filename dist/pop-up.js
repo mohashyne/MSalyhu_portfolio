@@ -67,9 +67,9 @@ const projects = [
                       </ul>
                       <div class="gray-line"></div>
                       <div class="popup__buttons">
-                          <a href="${projects[index].liveLink}" class="btn btn--green" target="_blank">See Live
+                          <a href="${projects[index].liveLink}" class="project-btn btn--green" target="_blank">See Live
                                   <img src="images/see-live-icon.svg" alt=""></a>
-                          <a href="${projects[index].sourceLink}" class="btn btn--green" target="_blank">See Source 
+                          <a href="${projects[index].sourceLink}" class="project-btn btn--green" target="_blank">See Source 
                                   <img src="images/see-source-icon.svg" alt=""></a>
                       </div>
                   </div>
@@ -123,7 +123,7 @@ const projects = [
                            ${technologiesList}
                       </ul>
                       <button
-                          class="btn btn--green car__btn">See
+                          class="project-btn btn--green car__btn">See
                           Project</button>
                   </div>
       </li>
@@ -134,7 +134,7 @@ const projects = [
   
   document.addEventListener('DOMContentLoaded', () => {
     createCard();
-    document.querySelectorAll('.work .btn').forEach((btn, index) => {
+    document.querySelectorAll('.work .project-btn').forEach((btn, index) => {
       btn.addEventListener('click', () => {
         openPopup(index);
       });
