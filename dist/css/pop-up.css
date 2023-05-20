@@ -376,7 +376,7 @@ li {
   
   @media screen and (min-width: 768px) {
     .popup {
-      width: 80%;
+      width: 78%;
       height: 90%;
       gap: 0;
       padding: 2.4rem;
@@ -388,6 +388,7 @@ li {
     }
   
     .popup__img {
+      content: url('../img/projects/Snap-desk-Portfolio.png');  
       width: 100%;
       height: fit-content;
     }

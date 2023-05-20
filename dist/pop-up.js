@@ -5,13 +5,12 @@ const projects = [
       description:
               'A daily selection of privately personalized reads; no accounts or sign-ups required.',
       image: './img/projects/Snapshoot Portfolio.svg',
-      technologies: ['Node.js', 'Express.js', 'JWT', 'Redis'],
+      technologies: ['HTML', 'CSS', 'JavaScript',],
       liveLink: 'https://example.com',
       sourceLink: 'https://github.com/mohashyne/MSalyhu_portfolio.git',
       projectCover: './img/projects/Snapshoot Portfolio.svg',
       fullDescription: `
-              A daily selection of privately personalized reads; no accounts or sign-ups required..
-              A daily selection of privately personalized reads; no accounts or sign-ups required.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi illum tempore aliquam similique aperiam officia soluta dolorum neque velit aspernatur odit libero animi quod deserunt praesentium accusantium possimus ad iste sed ratione, aut vel repellendus obcaecati quia.
           `,
       canopy: ['Backend DEV', 2023],
     },
@@ -20,7 +19,7 @@ const projects = [
       description:
               "A daily selection of privately personalized reads; no accounts or sign-ups required.",
       image: './img/projects/Snapshoot Portfolio (1).svg',
-      technologies: ['Node.js', 'TypeScript', 'Docker'],
+      technologies: ['HTML', 'CSS', 'JavaScript'],
       liveLink: 'https://example.com',
       sourceLink: 'https://github.com/mohashyne/MSalyhu_portfolio.git',
       projectCover: './img/projects/Snapshoot Portfolio (1).svg',
@@ -52,7 +51,7 @@ const projects = [
                   </ul>
               </div>
   
-              <img src="./img/projects/Snapshoot Portfolio_4.png" alt="" class="popup__img">
+              <img src="./img/projects/Snapshoot Portfolio.svg" alt="" class="popup__img">
   
               <div class="popup__details">
                   <p class="popup__description">
@@ -66,9 +65,9 @@ const projects = [
                       <div class="gray-line"></div>
                       <div class="popup__buttons">
                           <a href="${projects[index].liveLink}" class="project-btn btn--green" target="_blank">See Live
-                                  <img src="images/see-live-icon.svg" alt=""></a>
+                                  <img src="./img/see-live-icon.svg" alt=""></a>
                           <a href="${projects[index].sourceLink}" class="project-btn btn--green" target="_blank">See Source 
-                                  <img src="images/see-source-icon.svg" alt=""></a>
+                                  <img src="./img/see-source-icon.svg" alt=""></a>
                       </div>
                   </div>
               </div>
