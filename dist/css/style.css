@@ -509,7 +509,7 @@ h1 {
   border-bottom: 1px solid #DFE1E6;
 }
 
-#lan-item p {
+.lan-item p {
   display: flex;
   align-items: center;
   font-family: 'Poppins', sans-serif;
@@ -783,7 +783,6 @@ header .logo {
   margin-top: -3rem;
   width: 52.7rem;
   height: auto;
-  position: center;
 }
 
 .social-media {
@@ -967,6 +966,7 @@ header .logo {
   flex-direction: column;
   align-items: center;
   width: 58rem;
+}
 
   .input-div {
     width:  40vw;
@@ -980,4 +980,3 @@ header .logo {
   margin-bottom: -2.8rem;
 }
 
-}
