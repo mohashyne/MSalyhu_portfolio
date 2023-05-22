@@ -64,7 +64,7 @@ const projects = [
 ];
 
 function openPopup(index) {
-    const section = document.querySelector('.work');
+    const section = document.querySelector('.works-card');
     const overlay = document.querySelector('.overlay');
     const technologiesList = projects[index].technologies.map((tech) => `<li>${tech}</li>`).join('');
     const canopyList = projects[index].canopy.map((elem) => `<li>${elem}</li>`).join('');
