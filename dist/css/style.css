@@ -97,6 +97,7 @@ h1 {
   background: rgba(96, 112, 255, 0.9);
   backdrop-filter: blur(5px);
 
+
 }
 
 .header-active ul {
@@ -719,6 +720,11 @@ h1 {
   background-color: #ffff;
 }
 
+/* Javascript form control */
+.feedback {
+ font-size: 2.5rem;
+}
+
 /* Media Queries */
 @media only screen and (min-width: 768px) {
 
@@ -730,6 +736,7 @@ h1 {
     border-bottom: 1px solid #6070ff;
     border-radius: 0 0 1.5rem 1.5rem;
   }
+
 
   .header ul {
     display: flex;
@@ -747,6 +754,7 @@ h1 {
     padding-right: 8%;
     cursor: pointer;
   }
+
 
   .burger {
     display: none;
@@ -956,6 +964,7 @@ h1 {
   flex-direction: column;
   align-items: center;
   width: 58rem;
+}
 
   .input-div {
     width:  40vw;
@@ -969,4 +978,3 @@ h1 {
   margin-bottom: -2.8rem;
 }
 
-}

@@ -5,6 +5,7 @@ const burger = document.querySelector('#burger');
 let showMenu = false;
 
 function toggleMenu() {
+
     if (!showMenu) {
         header.classList.remove('header');
         header.classList.add('header-active');
@@ -24,5 +25,6 @@ function toggleMenu() {
         // Set menu state
         showMenu = false;
     }
+
 }
 burger.addEventListener('click', toggleMenu);
