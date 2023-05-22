@@ -4,8 +4,9 @@
 html {
   /* 62.5% of 16px = 10px */
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
-    
+
 *,
 *::before,
 *::after {
@@ -13,34 +14,26 @@ html {
   padding: 0;
   margin: 0;
 }
-    
+
 /* Typography */
 ::selection {
   background: #6070ff;
   color: #fff;
 }
-    
+
 body {
   background-color: #E5E5E5;
   font-family: 'Poppins', "Trebuchet MS", sans-serif;
   color: #344563;
 }
 
+
 /* Header & Hero */
-header,
-.hero {
+header{
   background-color: #fff;
 }
 
-a {
-  text-decoration: none;
-}
-
-li {
-  list-style-type: none;
-}
-
-.menu {
+.header {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
@@ -51,6 +44,19 @@ li {
   align-items: center;
 }
 
+
+header ul{
+  display:none;
+}
+
+header ul li {
+  list-style-type: none;
+}
+
+header ul li a {
+  text-decoration: none;
+}
+
 .logo {
   font-size: 1.8rem;
   text-align: center;
@@ -58,6 +64,7 @@ li {
   font-weight: 700;
   line-height: 2rem;
   height: 2rem;
+  text-decoration: none;
 }
 
 h1 {
@@ -70,7 +77,7 @@ h1 {
   line-height: 5.2rem;
   color: #172B4D;
 }
-  
+
 .burger {
   font-size: 1.3rem;
 }
@@ -83,13 +90,14 @@ h1 {
   margin-bottom: 0.4rem;
 }
 
-/* Menu JavaScript Manipulation */
+/* Menu JavaScript Manimulation */
 .header-active {
   position: absolute;
   width: 100vw;
   height: 100vh;
   background: rgba(96, 112, 255, 0.9);
   backdrop-filter: blur(5px);
+
 }
 
 .header-active ul {
@@ -146,6 +154,7 @@ h1 {
 /* ------------- */
 
 .hero {
+  background-color: #fff;
   background-image: url(../img/bg-header.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -157,28 +166,28 @@ h1 {
   left: 2.4rem;
   top: 27.6rem;
 }
-    
+
 .info {
   margin-top: -5rem;
   width: 32.7rem;
   height: 16.7rem;
   font-size: 1.6rem;
 }
-  
+
 .social-media {
   width: 22.5rem;
   height: 3.4rem;
-  padding-top: 1rem; 
+  padding-top: 1rem;
 }
-  
+
 .connect {
-  margin-top: 1rem;  
-  font-size: 1.6rem;  
+  margin-top: 1rem;
+  font-size: 1.6rem;
   color: #6070ff;
   width: 12.7rem;
   height: 2.4rem;
 }
-  
+
 .social-media li {
   margin-top: 1rem;
   display: inline-block;
@@ -714,67 +723,68 @@ h1 {
 /* Media Queries */
 @media only screen and (min-width: 768px) {
 
-header {
-  padding: 1.5% 9%;
-  position: fixed;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  border-bottom: 1px solid #6070ff;
-  border-radius: 0 0 1.5rem 1.5rem;
-}
+  header {
+    padding: 1.5% 9%;
+    position: fixed;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #6070ff;
+    border-radius: 0 0 1.5rem 1.5rem;
+  }
 
-.desktop-menu {
-  display: flex;
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 1.5rem;
-  line-height: 2rem;
-  align-items: center;
-  text-align: center;
-  color: #344563;
-  gap: 10%;
-  background-color: #ffff;
-  padding: 1rem 1.2rem;
-  padding-right: 8%;
-  cursor: pointer;
-}
+  .header ul {
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    align-items: center;
+    text-align: center;
+    color: #344563;
+    gap: 10%;
+    background-color: #ffff;
+    padding: 1rem 1.2rem;
+    padding-right: 8%;
+    cursor: pointer;
+  }
 
-.burger {
-  display: none;
-}
- 
-header .logo {
-  display: flex;
-  align-items: center;
-  padding-left: 7%;
-}
+  .burger {
+    display: none;
+  }
 
-.lg-heading{
-  margin-top: -5rem;
-}
+  header .logo {
+    display: flex;
+    align-items: center;
+    padding-left: 7%;
+  }
 
-.hero {
-  width: 100vw;
-}
+  .lg-heading{
+    margin-top: -5rem;
+  }
 
-.desk-hero {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  margin-top: 16rem;
-  margin-left: 12rem;
-}
-.info {
-  margin-top: -3rem;
-  width: 52.7rem;
-  height: auto;
-}
+  .hero {
+    width: 100vw;
+  }
 
-.social-media {
-  width: 22.5rem;
-  height: 0.4rem;
-}
+  .desk-hero {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 16rem;
+    margin-left: 12rem;
+  }
+  .info {
+    margin-top: -3rem;
+    width: 52.7rem;
+    height: auto;
+    position: center;
+  }
+
+  .social-media {
+    width: 22.5rem;
+    height: 0.4rem;
+  }
 
 /* Works & Project */
 .desktop-about-skills {
