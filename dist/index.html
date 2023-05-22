@@ -9,20 +9,24 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
-    <div class="container desk-container">
-        <header class="menu">
+    <div class="container desk-container" id="content">
+        <header id="header" class="header">
+
             <a href="#" class="logo">Crystal logo</a>
-            <nav class="burger">
-              <span></span>
-              <span></span>
-              <span></span>
-            </nav>
-            <nav class="desktop-menu">
-              <a href="#">Portfolio</a>
-              <a href="#">About</a>
-              <a href="#">Contact</a>
-          </nav>
-          </header>
+
+            <ul>
+                <li><a href="#projects" onclick="toggleMenu()">Portfolio</a></li>
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#form-section" onclick="toggleMenu()">Contact</a></li>
+            </ul>
+
+            <div id="burger" class="burger">
+                <span class="bar top"></span>
+                <span class="bar mid"></span>
+                <span class="bar bot"></span>
+            </div>
+
+        </header>
       <section class="hero">
             <div class="desk-hero">
               <div class="deesk-hero-details">
@@ -38,7 +42,7 @@
             </p>
           
               <div>
-                <h2 href="#" class="connect">LET'S CONNECT</h2>
+                <h2 class="connect">LET'S CONNECT</h2>
               </div>
                   <div>
                     <ul class="social-media">
@@ -74,10 +78,10 @@
               <div class="grid-container grid-container-desktop">
                 <div class="card-container" id="card-1" data-aos="fade-right">
                   <div>
-                    <img class="card-img" src="./img/projects/Snapshoot Portfolio_1.png" alt="photo of my 1st project" data-aos="zoom-in-left"/>
+                    <img class="card-img" src="./img/projects/Snapshoot_Portfolio_1.svg" alt="photo of my 1st project" data-aos="zoom-in-left"/>
                   </div>
                     <div class="text-container">
-                        <h2 class="card-title">Tonic</h3>
+                        <h3 class="card-title">Tonic</h3>
                               <div class="frame-two">
                                 <p class="client">CANOPY</p>
                                 <img src="./img/Counter.png" alt="Counter">
@@ -99,10 +103,10 @@
              <div class="grid-container grid-container-desktop">
                     <div class="card-container" id="card-2" data-aos="fade-right">
                       <div>
-                        <img class="card-img" src="./img/projects/Snapshoot Portfolio_2.png" alt="photo of my 1st project" data-aos="zoom-in-left"/>
+                        <img class="card-img" src="./img/projects/Snapshoot_Portfolio_2.svg" alt="photo of my 1st project" data-aos="zoom-in-left"/>
                       </div>
                          <div class="text-container">
-                           <h2 class="card-title">Multi-Post <br> Stories</h3>
+                           <h3 class="card-title">Multi-Post <br> Stories</h3>
                               <div class="frame-two">
                                 <p class="client">CANOPY</p>
                                 <img src="./img/Counter.png" alt="Counter">
@@ -124,10 +128,10 @@
               <div class="grid-container grid-container-desktop">
                     <div class="card-container" id="card-3" data-aos="fade-right">
                       <div>
-                        <img class="card-img" src="./img/projects/Snapshoot Portfolio_3.png" alt="photo of my 1st project" data-aos="zoom-in-left"/>
+                        <img class="card-img" src="./img/projects/Snapshoot_Portfolio_3.svg" alt="photo of my 1st project" data-aos="zoom-in-left"/>
                       </div>
                          <div class="text-container">
-                           <h2 class="card-title">Tonic</h3>
+                           <h3 class="card-title">Tonic</h3>
                               <div class="frame-two">
                                 <p class="client">CANOPY</p>
                                 <img src="./img/Counter.png" alt="Counter">
@@ -149,10 +153,10 @@
               <div class="grid-container grid-container-desktop">
                     <div class="card-container" id="card-4" data-aos="fade-right">
                       <div>
-                        <img class="card-img" src="./img/projects/Snapshoot Portfolio_4.png" alt="photo of my 1st project" data-aos="zoom-in-left"/>
+                        <img class="card-img" src="./img/projects/Snapshoot_Portfolio_4.svg" alt="photo of my 1st project" data-aos="zoom-in-left"/>
                       </div>
                          <div class="text-container">
-                           <h2 class="card-title">Multi-Post <br> Stories</h3>
+                           <h3 class="card-title">Multi-Post <br> Stories</h3>
                               <div class="frame-two">
                                 <p class="client">CANOPY</p>
                                 <img src="./img/Counter.png" alt="Counter">
@@ -179,7 +183,7 @@
                   <div>
                     <p class="info desk-info">Hello I'm a software developer! I can help you build a product, feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don't hesitate to contact me.</p>
                   </div>
-                  <h3 href="#" class="connect">LET'S CONNECT</h3>
+                  <h3 class="connect">LET'S CONNECT</h3>
              <ul class="social-media">
                 <li>
                   <a href="#" class="icons">
@@ -208,7 +212,7 @@
                 <div class="skills__container">
                   <ul>
                       <li class="language__content">
-                          <div id="skill-item-color" class="skill__item">
+                          <div class="skill-item-color skill__item">
                               <p>Languages</p>
                               <button type="button">
                                   <img src="./img/icons/tertiary.png" alt="arrow icon">
@@ -217,13 +221,13 @@
                           <div>
                               <ul class="language__list">
                                   <li class="language__item">
-                                      <div id="lan-item">
+                                      <div class="lan-item">
                                           <img src="img/JS Ellipse.png" alt="js icon">
                                           <p>Javascript</p>
                                       </div>
                                   </li>
                                   <li class="language__item">
-                                      <div id="lan-item">
+                                      <div class="lan-item">
                                           <img src="img/HTML Ellipse.png" alt="html icon">
                                           <p>HTML</p>
                                       </div>
@@ -238,7 +242,7 @@
                           </div>
                       </li>
       
-                      <li id="skill-item-color" class="skill__item bottom-bar">
+                      <li class="skill-item-color skill__item bottom-bar">
                           <p>Frameworks</p>
                           <button class="close" type="button">
                               <img src="img/icons/tertiary.png" alt="arrow icon">
@@ -269,18 +273,18 @@
                     <ul id="contactInGrid">
                       <li>
                         <div class="input-div">
-                          <input type="text" name="name" maxlength="30" required="true" placeholder="Your Name" />
+                          <input type="text" name="name" maxlength="30" required placeholder="Your Name" />
                         </div>
                       </li>
                       <li>
                         <div class="input-div">
-                          <input id="mail" type="email" name="email" required="true" placeholder="Your email Address"
+                          <input id="mail" type="email" name="email" required placeholder="Your email Address"
                           maxlength="500"/>
                         </div>
                       </li>
                       <li>
                         <div id="maxText" class="input-div">
-                          <textarea name="message" required="true" id="message" maxlength="500"
+                          <textarea name="message" required id="message" maxlength="500"
                           placeholder="Write your message here..." rows="10"></textarea>
                         </div>
                       </li>
