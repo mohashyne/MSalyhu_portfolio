@@ -1,4 +1,5 @@
 
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900);
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
 html {
   /* 62.5% of 16px = 10px */
@@ -487,11 +488,11 @@ h1 {
     width: 70%;
   }
 
-  .popup__img {
-    content: url('../img/projects/Snap-desk-Portfolio.png');
-    width: 100%;
-    height: fit-content;
-  }
+  /*.popup__img {*/
+  /*  content: url('../img/projects/Snap-desk-Portfolio.png');*/
+  /*  width: 100%;*/
+  /*  height: fit-content;*/
+  /*}*/
 
   .popup__exit {
     background-color: #ebecf0;
@@ -569,6 +570,98 @@ h1 {
 .btn:active {
   background-color: #396df2;
   color: #fff;
+}
+
+.card__list,
+.about__list {
+  width: 100%;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  overflow: hidden;
+  margin-left: 15px;
+}
+
+.card__canopy-list li::before {
+  list-style: circle;
+  content: "\2022";
+  color: gray;
+  font-weight: bold;
+  display: inline-block;
+  width: 1.5rem !important;
+  height: 1.5rem !important;
+  margin-left: 1rem;
+  left: -18px;
+  top: 50%;
+}
+
+.card__canopy {
+  justify-content: flex-start;
+  padding-left: 20px;
+}
+
+.card__canopy-header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.card__canopy-title {
+  margin-right: 10px;
+  font-size: 13px;
+  color: #172b4d;
+}
+
+.card__canopy-list {
+  display: flex;
+  margin: 10px;
+  padding: 0;
+}
+
+.card__canopy-list li {
+  margin-right: 10px;
+  font-size: 13px;
+  color: gray;
+  font-weight: 600;
+}
+
+.card__list > li {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #396df2;
+  background: #ebebff;
+  border-radius: 4px;
+  padding: 0.8rem 1.2rem;
+  float: left;
+  margin-right: 10px;
+}
+
+.card__canopy-header {
+  margin-bottom: 1.5rem;
+}
+
+.card__canopy-title {
+  font-family: Poppins, sans-serif;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 24px;
+  font-style: normal;
+}
+
+.card__canopy-list {
+  display: flex;
+  margin-right: 1rem;
+  padding: 0;
+}
+
+.card__canopy-list li {
+  font-family: Poppins, sans-serif;
+  font-size: 1.8rem;
+  color: #6b778c;
+  font-weight: 400;
+}
+
+.btn {
+  margin-top: 5rem;
 }
 
 /* Skills */
@@ -785,27 +878,27 @@ h1 {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 15px;
-  line-height: 20px;
+  font-size: 1.55rem;
+  line-height: 2.0rem;
   color: #253858;
-  height: 66.7155990600586px;
-  width: 303px;
-  left: 12px;
-  top: 12px;
+  height: 6.6715rem;
+  width: 30.3rem;
+  left: 1.2rem;
+  top: 1.2rem;
   border-radius: 8px;
   background-color: #f7f7f9;
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 30px;
+  gap: 3rem;
 }
 
 .divisor {
-  height: 1px;
+  height: 0.1rem;
   width: 80%;
   background: rgba(223, 225, 230, 1);
   margin: 0 8%;
-  margin-bottom: 10px;
+  margin-bottom: 1rem;
 }
 
 /* Contact */
@@ -816,7 +909,7 @@ h1 {
 #contact-container {
   display: flex;
   flex-direction: column;
-  gap: 50px;
+  gap: 5rem;
   padding: 90px 24px 45px 24px;
   background-image: url(../img/form-shapes-mobile.png);
   background-position: right;
@@ -832,10 +925,10 @@ h1 {
   color: #fff;
   font-style: normal;
   font-weight: 700;
-  font-size: 40px;
-  line-height: 52px;
+  font-size: 4rem;
+  line-height: 5.2rem;
   text-align: center;
-  height: 80px;
+  height: 8rem;
   background-color: #6070ff;
 }
 
@@ -847,8 +940,8 @@ h1 {
   color: #ebebff;
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
-  line-height: 28px;
+  font-size: 2rem;
+  line-height: 2.8rem;
   text-align: center;
   background-color: #6070ff;
 }
@@ -856,7 +949,7 @@ h1 {
 #form input,
 #form textarea {
   width: 91%;
-  height: 154px;
+  height: 15.4rem;
   border-radius: 8px;
   border: none;
   background-color: white;
@@ -872,27 +965,27 @@ h1 {
 }
 
 #message {
-  padding: 10px;
-  left: 16px;
-  right: 38px;
-  top: 15px;
-  bottom: 15px;
+  padding: 1rem;
+  left: 1.6rem;
+  right: 3.8rem;
+  top: 1.5rem;
+  bottom: 1.5rem;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 15px;
-  line-height: 24px;
+  font-size: 1.5rem;
+  line-height: 2.4rem;
 }
 
 #form input {
   width: 91%;
-  height: 48px;
-  padding: 10px;
-  margin-bottom: 20px;
+  height: 4.8rem;
+  padding: 1.0rem;
+  margin-bottom: 2rem;
   font-style: normal;
   font-weight: 400;
-  font-size: 17px;
-  line-height: 20px;
+  font-size: 1.7rem;
+  line-height: 2rem;
 }
 
 .form {
@@ -1061,6 +1154,13 @@ h1 {
   width: 21.4rem;
   height: 1.4rem;
 }
+
+  .btn--green {
+    background-color: #fff;
+    border: 1px solid #396df2;
+    border-radius: 8px;
+    margin-left: 20px;
+  }
 
 /* Skills */
 .about-self {

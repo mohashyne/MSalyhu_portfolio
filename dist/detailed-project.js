@@ -80,13 +80,13 @@ function openPopup(index) {
               </button>
   
               <div class="card__canopy-header popup__canopy">
-                  <h4 class="card__canopy-title">CANOPY</h4>
-                  <ul class="card__canopy-list popup__canopy-list">
+                  <h4 class="card-title">CANOPY</h4>
+                  <ul class="frame-two popup__canopy-list">
                       ${canopyList}
                   </ul>
               </div>
   
-              <img src="./img/projects/Snapshoot Portfolio.svg" alt="" class="popup__img">
+              <img src="./img/projects/Snapshoot_Portfolio_4.png" alt="" class="popup__img">
   
               <div class="popup__details">
                   <p class="popup__description">
@@ -94,7 +94,7 @@ function openPopup(index) {
                   </p>
   
                   <div class="popup__tech-buttons">
-                      <ul class="card__list popup__tech">
+                      <ul class="small-btn popup__tech">
                           ${technologiesList}
                       </ul>
                       <div class="gray-line"></div>
@@ -128,7 +128,65 @@ function openPopup(index) {
     });
 }
 
+function openPopup(index) {
+    const section = document.querySelector('.works-card');
+    const overlay = document.querySelector('.overlay');
+    const technologiesList = projects[index].technologies.map((tech) => `<div>${tech}</div>`).join('');
+    const canopyList = projects[index].canopy.map((elem) => `<div>${elem}</div>`).join('');
 
+    const popupHtml = `
+        <div class="popup">
+
+            <h3 class="popup__name">${projects[index].name}</h3>
+            <button type="button" class="popup__exit">
+                <img src="./img/icons8-close_black.svg" alt="">
+            </button>
+
+            <div class="card__canopy-header popup__canopy">
+                <h4 class="card-title">CANOPY</h4>
+                <ul class="frame-two popup__canopy-list">
+                    ${canopyList}
+                </ul>
+            </div>
+
+            <img src="./img/projects/Snapshoot_Portfolio_4.png" alt="" class="popup__img">
+
+            <div class="popup__details">
+                <p class="popup__description">
+                    ${projects[index].fullDescription}
+                </p>
+
+                <div class="popup__tech-buttons">
+                    <ul class="small-btn popup__tech">
+                        ${technologiesList}
+                    </ul>
+                    <div class="gray-line"></div>
+                    <div class="popup__buttons">
+                        <a href="${projects[index].liveLink}" class="project-btn btn--green" target="_blank">See Live
+                                <img src="./img/see-live-icon.svg" alt=""></a>
+                        <a href="${projects[index].sourceLink}" class="project-btn btn--green" target="_blank">See Source 
+                                <img src="./img/see-source-icon.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    `;
+
+    section.insertAdjacentHTML('afterbegin', popupHtml);
+    overlay.classList.remove('hidden');
+
+    const closePopupIcon = document.querySelector('.popup__exit');
+    const popup = document.querySelector('.popup');
+    const body = document.querySelector('body');
+
+    body.classList.add('popup-open');
+
+    closePopupIcon.addEventListener('click', () => {
+        popup.classList.add('hidden');
+        overlay.classList.add('hidden');
+        body.classList.remove('popup-open');
+    });
+}
 
 
 //GENERATE THE CARDS DYNAMICALLY
