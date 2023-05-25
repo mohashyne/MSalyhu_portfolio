@@ -136,8 +136,9 @@ li {
 }
 
 .card__canopy-list li {
-    margin-right: 10px;
-    font-size: 13px;
+    margin-right: 1rem;
+    font-size: 1.3rem;
+    width: 12rem;
     color: gray;
     font-weight: 600;
 }
@@ -306,7 +307,7 @@ li {
 }
 
 .popup__name {
-    font-size: 3.2rem;
+    font-size: 2.2rem;
     font-weight: 600;
     color: #172b4d;
 }
