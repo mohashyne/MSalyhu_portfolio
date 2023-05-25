@@ -84,7 +84,7 @@ function openPopup(index) {
                   </ul>
               </div>
   
-              <img src="./img/projects/Snapshoot Portfolio.svg" alt="" class="popup__img">
+              <img src="./img/projects/Snapshoot_Portfolio_1.svg" alt="" class="popup__img">
   
               <div class="popup__details">
                   <p class="popup__description">
