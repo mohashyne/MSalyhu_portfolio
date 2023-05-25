@@ -1,0 +1,444 @@
+/*Detailed Pop-up with Javascript*/
+li {
+    list-style: none;
+}
+
+
+.project-btn {
+    height: 4.8rem;
+    width: 12.6rem;
+    left: 0;
+    top: 1.2rem;
+    border-radius: 8px;
+    border: 0.1rem solid #6070ff;
+    padding: 1.2rem;
+    background: #fff;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    color: #396df2;
+    cursor: pointer;
+}
+
+.project-btn:hover {
+    background-color: #6070ff;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.project-btn:active {
+    background: #396df2;
+}
+
+.btn--green {
+    background-color: #fff;
+    border: 1px solid #396df2;
+    border-radius: 8px;
+    margin-left: 1.5rem;
+}
+
+.work {
+    margin-inline: 2.4rem;
+    padding-bottom: 10rem;
+}
+
+.card__container {
+    display: -ms-grid;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 3rem;
+    justify-content: center;
+}
+
+.card {
+    width: 33rem;
+    height: 50rem;
+    border: 1px solid #d0d9d4;
+    border-radius: 0.8rem;
+}
+
+.card__imgbox {
+    height: 220px;
+    width: 295px;
+    margin: auto;
+}
+
+.card__img {
+    width: 100%;
+    height: 100%;
+    padding-block: 10%;
+}
+
+.card__details {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.card__text {
+    font-size: 2.4rem;
+    font-weight: 800;
+    padding-left: 20px;
+    padding-bottom: 0;
+    color: #172b4d;
+    text-transform: capitalize;
+    align-items: flex-start;
+}
+
+.card__list,
+.about__list {
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    overflow: hidden;
+    margin-left: 15px;
+}
+
+.card__canopy-list li::before {
+    list-style: circle;
+    content: "\2022";
+    color: gray;
+    font-weight: bold;
+    display: inline-block;
+    width: 1.5rem !important;
+    height: 1.5rem !important;
+    margin-left: 1rem;
+    left: -18px;
+    top: 50%;
+}
+
+.card__canopy {
+    justify-content: flex-start;
+    padding-left: 20px;
+}
+
+.card__canopy-header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.card__canopy-title {
+    margin-right: 10px;
+    font-size: 13px;
+    color: #172b4d;
+}
+
+.card__canopy-list {
+    display: flex;
+    margin: 10px;
+    padding: 0;
+}
+
+.card__canopy-list li {
+    margin-right: 1rem;
+    font-size: 1.3rem;
+    width: 13rem;
+    color: gray;
+    font-weight: 600;
+}
+
+.card__canopy-text {
+    font-size: 15px;
+    color: #344563;
+    font-weight: 400;
+    line-height: 24px;
+    width: 295px;
+    height: 76px;
+}
+
+.card__list>li {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #396df2;
+    background: #ebebff;
+    border-radius: 10px;
+    padding: 0.8rem 1.2rem;
+    float: left;
+    margin-right: 0.7rem;
+}
+
+@media screen and (min-width: 768px) {
+    .card__container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .work {
+        justify-content: center;
+        margin-top: 220px;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 100%;
+        border: 2px solid #d0d9d4;
+        border-radius: 24px;
+        margin: 2%;
+        overflow: hidden;
+    }
+
+    .card:nth-child(2n) {
+        flex-direction: row-reverse;
+    }
+
+    .card__imgbox {
+        height: 100%;
+        width: 47%;
+    }
+
+    .card__img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        padding-block: 2%;
+        border-radius: 8px;
+    }
+
+    .card__details {
+        height: 100%;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding: 1rem;
+        padding-top: 5rem;
+        box-sizing: border-box;
+    }
+
+    .card__text {
+        font-size: 4rem;
+        font-weight: 700;
+        font-family: Poppins, sans-serif;
+    }
+
+    .card__canopy-header {
+        margin-bottom: 1.5rem;
+    }
+
+    .card__canopy-title {
+        font-family: Poppins, sans-serif;
+        font-size: 2rem;
+        font-weight: 500;
+        line-height: 24px;
+        font-style: normal;
+    }
+
+    .card__canopy-text {
+        font-family: Poppins, sans-serif;
+        font-size: 1.6rem;
+        color: #344563;
+        display: inline;
+    }
+
+    .card__canopy {
+        margin-bottom: 3rem;
+    }
+
+    .card__description {
+        font-size: 1.2rem;
+        line-height: 1.3;
+        margin-block-end: 1rem;
+        width: 50%;
+    }
+
+    .card__canopy-list {
+        display: flex;
+        margin-right: 1rem;
+        padding: 0;
+    }
+
+    .card__canopy-list li {
+        font-family: Poppins, sans-serif;
+        font-size: 1.8rem;
+        width: 15rem;
+        color: #6b778c;
+        font-weight: 400;
+    }
+
+    .btn {
+        margin-top: 5rem;
+    }
+}
+
+
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    padding: 1.6rem;
+    border-radius: 15px;
+    box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+    overflow: hidden;
+    overflow-wrap: break-word;
+}
+
+.popup__img {
+    width: 100%;
+}
+
+.popup__left {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.popup__exit {
+    position: absolute;
+    right: 3rem;
+    top: 2.5rem;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+.popup__name {
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: #172b4d;
+}
+
+.popup__canopy>* {
+    margin-top: 0;
+}
+
+.popup__canopy-list {
+    margin: 0;
+}
+
+.popup__tech {
+    justify-content: flex-start;
+    gap: 2rem;
+    margin-left: 3px;
+    margin-top: 1.2rem;
+}
+
+.popup__description {
+    font-size: 1.6rem;
+    color: #344563;
+    line-height: 2.4rem;
+    margin-left: 0.4rem;
+    width: 100%;
+}
+
+.popup__buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 4.9rem;
+}
+
+.popup__buttons>a {
+    text-decoration: none;
+    display: flex;
+    width: 50%;
+    height: 5rem;
+    font-size: 1.3rem;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.popup__buttons img {
+    position: relative;
+    padding-inline: 0.5rem;
+}
+
+.overlay {
+    position: fixed;
+    inset: 0;
+    background-color: #ebecf0;
+    z-index: 5;
+    opacity: 0.9;
+    filter: blur(10px);
+}
+
+.hidden {
+    display: none;
+}
+
+.popup-open {
+    overflow: hidden;
+}
+
+@media screen and (min-width: 768px) {
+    .popup {
+        height: 100%;
+        gap: 0;
+        padding: 2.4rem;
+        overflow: scroll;
+    }
+
+    .popup__description {
+        width: 70%;
+    }
+
+    .popup__img {
+        content: url('../img/projects/Snap-desk-Portfolio.svg');
+        width: 100%;
+        height: fit-content;
+    }
+
+    .popup__exit {
+        background-color: #ebecf0;
+        top: 2rem;
+    }
+
+    .popup__details {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        margin-top: 5rem;
+        gap: 1rem;
+    }
+
+    .popup__buttons {
+        position: relative;
+        margin-left: 0;
+        bottom: 0;
+        margin-top: 0;
+        justify-content: flex-end;
+        gap: 2rem;
+        width: 30rem;
+    }
+
+    .gray-line {
+        border-top: 2px solid #ebecf0;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .popup__buttons>a {
+        margin-left: 0;
+        margin-top: 0;
+        height: 4rem;
+        font-size: 1.4rem;
+    }
+
+    .popup__canopy {
+        margin-bottom: 3rem;
+    }
+
+    .popup__tech {
+        margin-top: 0;
+    }
+
+    .modal__tech>li {
+        margin-bottom: 0.5rem;
+    }
+}
