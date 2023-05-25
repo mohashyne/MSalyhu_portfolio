@@ -15,31 +15,3 @@ form.addEventListener('submit', (e) => {
     feedBack.style.borderColor = '#fc0b03';
   }
 });
-
-// Local Storage
-const inputs = form.querySelectorAll('input, textarea');
-const storageKey = 'contactForm';
-
-let formData = {
-  name: '',
-  email: '',
-  message: '',
-};
-
-// form input localStorage
-inputs.forEach((input) => {
-  input.addEventListener('input', () => {
-    formData[input.name] = input.value;
-    localStorage.setItem(storageKey, JSON.stringify(formData));
-  });
-});
-
-// Load formData
-const storedData = JSON.parse(localStorage.getItem(storageKey));
-
-if (storedData) {
-  formData = storedData;
-  inputs.forEach((input) => {
-    input.value = formData[input.name] || '';
-  });
-}
