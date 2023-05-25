@@ -259,6 +259,7 @@ li {
     .card__canopy-list li {
         font-family: Poppins, sans-serif;
         font-size: 1.8rem;
+        width: 15rem;
         color: #6b778c;
         font-weight: 400;
     }
