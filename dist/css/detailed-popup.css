@@ -344,6 +344,7 @@ li {
 }
 
 .popup__buttons>a {
+    text-decoration: none;
     display: flex;
     width: 50%;
     height: 5rem;
@@ -377,6 +378,7 @@ li {
 @media screen and (min-width: 768px) {
     .popup {
         width: 78%;
+        height: 100%;
         gap: 0;
         padding: 2.4rem;
         overflow: scroll;
