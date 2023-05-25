@@ -37,7 +37,7 @@ li {
     background-color: #fff;
     border: 1px solid #396df2;
     border-radius: 8px;
-    margin-left: 20px;
+    margin: 0 1rem;
 }
 
 .work {
@@ -273,8 +273,7 @@ li {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 90%;
-    background-color: #fff;
+    background: #fff;
     padding: 1.6rem;
     border-radius: 15px;
     box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
@@ -363,7 +362,7 @@ li {
     inset: 0;
     background-color: #ebecf0;
     z-index: 5;
-    opacity: 0.8;
+    opacity: 0.9;
     filter: blur(10px);
 }
 
