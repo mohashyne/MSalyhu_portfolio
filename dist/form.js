@@ -36,7 +36,7 @@ inputs.forEach((input) => {
 });
 
 // Load formData
-const storedData = JSON.parse(localStorage.getItem(storageKey));
+
 
 if (storedData) {
   formData = storedData;
