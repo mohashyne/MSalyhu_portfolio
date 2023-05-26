@@ -51,9 +51,9 @@
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://mohashyne.github.io/">HTML</a></li>
-    <li><a href="https://mohashyne.github.io/">CSS</a></li>
-    <li><a href="https://mohashyne.github.io/">JavaScript</a></li>
+    <li><a href="https://github.com/mohashyne/MSalyhu_portfolio/blob/master/dist/index.html">HTML</a></li>
+    <li><a href="https://github.com/mohashyne/MSalyhu_portfolio/tree/master/dist/css">CSS</a></li>
+    <li><a href="https://github.com/mohashyne/MSalyhu_portfolio/tree/master/dist">JavaScript</a></li>
   </ul>
 </details>
 
