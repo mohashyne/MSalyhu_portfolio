@@ -70,7 +70,7 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [https://mohashyne.github.io/]
+- [https://mohashyne.github.io/MSalyhu_portfolio/dist]
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
