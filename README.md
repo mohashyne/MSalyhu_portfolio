@@ -160,7 +160,7 @@ Please note that it may take a few moments for GitHub Pages to build and deploy 
 
 - GitHub: [@mohashyne](https://github.com/mohashyne)
 - Twitter: [@muhammadslyhu](https://twitter.com/muhammadslyhu)
-- LinkedIn: [muhammad-salihu-27467a165](https://linkedin.com/in/muhammad-salihu-27467a165)
+- LinkedIn: [muhammad-salihu-27467a165](https://www.linkedin.com/in/msalyhu)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
