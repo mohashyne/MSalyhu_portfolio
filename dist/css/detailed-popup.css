@@ -388,11 +388,11 @@ li {
         width: 70%;
     }
 
-    .popup__img {
+    /* .popup__img {
         content: url('../img/projects/Snap-desk-Portfolio.svg');
         width: 100%;
         height: fit-content;
-    }
+    } */
 
     .popup__exit {
         background-color: #ebecf0;

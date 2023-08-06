@@ -7,7 +7,7 @@ const projects = [
             'Book Store is a web application that provides a platform for users to browse , add and delete books.',
     image: './img/projects/project1.png',
     technologies: ['HTML', 'CSS', 'JavaScript','React', 'Redux'],
-    liveLink: 'mohashyne.github.io/book_store/',
+    liveLink: 'https://mohashyne.github.io/book_store/',
     sourceLink: 'https://github.com/mohashyne/book_store',
     projectCover: './img/projects/Snapshoot_Portfolio_1.svg',
     fullDescription: `
@@ -22,13 +22,13 @@ const projects = [
             ' An event webpage (TechEx Block-Chain Expo) is designed and deployed which showcases my HTML, CSS, and JavaScript skills.',
     image: './img/projects/project2.png',
     technologies: ['HTML', 'CSS', 'JavaScript'],
-    liveLink: 'mohashyne.github.io/Module1_Capstone/dist',
+    liveLink: 'https://mohashyne.github.io/Module1_Capstone/dist',
     sourceLink: 'https://github.com/mohashyne/Module1_Capstone',
     projectCover: './img/projects/Snapshoot_Portfolio_2.svg',
     fullDescription: `
     An event webpage (TechEx Block-Chain Expo) is designed and deployed which showcases my HTML, CSS, and JavaScript skills. Responsive content with JavaScript DOM manipulation and generating html elements/tags dynamically using javascript.
           `,
-    canopy: ['Lead Developer', 2022],
+    canopy: ['Developer', 2022],
   },
   {
     name: 'WorldVista',
@@ -37,7 +37,7 @@ const projects = [
             'World Vista is a dynamic web app using the Fetch API for country data. It offers details on culture, history, and attractions.',
     image: './img/projects/project3.png',
     technologies: ['HTML', 'CSS', 'JavaScript'],
-    liveLink: 'gregarious-cupcake-5d65a2.netlify.app/',
+    liveLink: 'https://gregarious-cupcake-5d65a2.netlify.app/',
     sourceLink: 'https://github.com/mohashyne/Module-Capstone--2',
     projectCover: './img/projects/Snapshoot_Portfolio_3.svg',
     fullDescription: `
@@ -62,6 +62,7 @@ const projects = [
   },
 
 ];
+
 
 function openPopup(index) {
   const section = document.querySelector('.works-card');

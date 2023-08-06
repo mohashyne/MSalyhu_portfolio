@@ -27,6 +27,10 @@ body {
   color: #344563;
 }
 
+a {
+  text-decoration: none;
+}
+
 
 /* Header & Hero */
 header{
