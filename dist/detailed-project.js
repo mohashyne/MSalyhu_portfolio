@@ -1,17 +1,17 @@
 // Define the project data
 const projects = [
   {
-    name: 'FACEBOOK 360',
-    client: 'FACE',
+    name: 'BOOK STORE',
+    client: 'REACT',
     description:
-            'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    image: './img/projects/Snapshoot_Portfolio_1.svg',
-    technologies: ['HTML', 'CSS', 'JavaScript'],
-    liveLink: 'https://example.com',
-    sourceLink: 'https://github.com/mohashyne/MSalyhu_portfolio.git',
-    projectCover: './img/projects/Snapshoot_Portfolio_1.svg',
+            'Book Store is a web application that provides a platform for users to browse , add and delete books.',
+    image: './img/projects/project1.png',
+    technologies: ['HTML', 'CSS', 'JavaScript','React', 'Redux'],
+    liveLink: 'mohashyne.github.io/book_store/',
+    sourceLink: 'https://github.com/mohashyne/book_store',
+    projectCover: './img/projects/project1.png',
     fullDescription: `
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi illum tempore aliquam similique aperiam officia soluta dolorum neque velit aspernatur odit libero animi quod deserunt praesentium accusantium possimus ad iste sed ratione, aut vel repellendus obcaecati quia.
+    Book Store is a web application that provides a platform for users to browse , add and delete books. The bookstore features a user-friendly interface with a wide selection of books, categorized for easy navigation
           `,
     canopy: ['Full Stack DEV', 2023],
   },
@@ -19,44 +19,44 @@ const projects = [
     name: 'Uber Navigation',
     client: 'Uber',
     description:
-            'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    image: './img/projects/Snapshoot_Portfolio_2.svg',
+            ' An event webpage (TechEx Block-Chain Expo) is designed and deployed which showcases my HTML, CSS, and JavaScript skills.',
+    image: './img/projects/project2.png',
     technologies: ['HTML', 'CSS', 'JavaScript'],
-    liveLink: 'https://example.com',
-    sourceLink: 'https://github.com/mohashyne/MSalyhu_portfolio.git',
-    projectCover: './img/projects/Snapshoot_Portfolio_2.svg',
+    liveLink: 'mohashyne.github.io/Module1_Capstone/dist',
+    sourceLink: 'https://github.com/mohashyne/Module1_Capstone',
+    projectCover: './img/projects/project2.png',
     fullDescription: `
-              Multi-Post A daily selection of privately personalized reads; no accounts or sign-ups required, no accounts or sign-ups.
+    An event webpage (TechEx Block-Chain Expo) is designed and deployed which showcases my HTML, CSS, and JavaScript skills. Responsive content with JavaScript DOM manipulation and generating html elements/tags dynamically using javascript.
           `,
     canopy: ['Lead Developer', 2022],
   },
   {
-    name: 'Tonic',
+    name: 'WorldVista',
     client: 'CANOPY',
     description:
-            'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    image: './img/projects/Snapshoot_Portfolio_3.png',
+            'World Vista is a dynamic web app using the Fetch API for country data. It offers details on culture, history, and attractions.',
+    image: './img/projects/project3.png',
     technologies: ['HTML', 'CSS', 'JavaScript'],
-    liveLink: 'https://example.com',
-    sourceLink: 'https://github.com/mohashyne/MSalyhu_portfolio.git',
-    projectCover: './img/projects/Snapshoot_Portfolio_3.png',
+    liveLink: 'gregarious-cupcake-5d65a2.netlify.app/',
+    sourceLink: 'https://github.com/mohashyne/Module-Capstone--2',
+    projectCover: './img/projects/project3.png',
     fullDescription: `
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi illum tempore aliquam similique aperiam officia soluta dolorum neque velit aspernatur odit libero animi quod deserunt praesentium accusantium possimus ad iste sed ratione, aut vel repellendus obcaecati quia.
+    World Vista is a dynamic web app using the Fetch API for country data. It offers details on culture, history, and attractions. Users can book tours, share comments, and like countries. Explore the world and connect with fellow travelers on World Vista.
           `,
     canopy: ['Backend DEV', 2023],
   },
   {
-    name: 'Multi-Post',
+    name: 'Space Travelers Hub',
     client: 'CANOPY',
     description:
-            'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    image: './img/projects/Snapshoot_Portfolio_4.svg',
+            'Space Travelers Hub is a group project developed by Muhammad and Henok. The web application allows users to reserve and cancel rocket reservations while offering an enhanced user interface for visual clarity.',
+    image: './img/projects/project4.png',
     technologies: ['HTML', 'CSS', 'JavaScript'],
-    liveLink: 'https://example.com',
-    sourceLink: 'https://github.com/mohashyne/MSalyhu_portfolio.git',
-    projectCover: './img/projects/Snapshoot_Portfolio_4.svg',
+    liveLink: 'https://space-traveler-hub-qacv.onrender.com/',
+    sourceLink: 'https://github.com/mohashyne/space-travelers-hub',
+    projectCover: './img/projects/project4.png',
     fullDescription: `
-              Multi-Post A daily selection of privately personalized reads; no accounts or sign-ups required, no accounts or sign-ups.
+    Space Travelers Hub is a group project developed by Muhammad and Henok. The web application allows users to reserve and cancel rocket reservations while offering an enhanced user interface for visual clarity. The mission features include seamless action dispatching for rocket reservations and cancellations
           `,
     canopy: ['Backend DEV', 2022],
   },
