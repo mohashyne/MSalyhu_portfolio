@@ -9,7 +9,7 @@ const projects = [
     technologies: ['HTML', 'CSS', 'JavaScript','React', 'Redux'],
     liveLink: 'mohashyne.github.io/book_store/',
     sourceLink: 'https://github.com/mohashyne/book_store',
-    projectCover: './img/projects/project1.png',
+    projectCover: './img/projects/Snapshoot_Portfolio_1.svg',
     fullDescription: `
     Book Store is a web application that provides a platform for users to browse , add and delete books. The bookstore features a user-friendly interface with a wide selection of books, categorized for easy navigation
           `,
@@ -24,7 +24,7 @@ const projects = [
     technologies: ['HTML', 'CSS', 'JavaScript'],
     liveLink: 'mohashyne.github.io/Module1_Capstone/dist',
     sourceLink: 'https://github.com/mohashyne/Module1_Capstone',
-    projectCover: './img/projects/project2.png',
+    projectCover: './img/projects/Snapshoot_Portfolio_2.svg',
     fullDescription: `
     An event webpage (TechEx Block-Chain Expo) is designed and deployed which showcases my HTML, CSS, and JavaScript skills. Responsive content with JavaScript DOM manipulation and generating html elements/tags dynamically using javascript.
           `,
@@ -39,7 +39,7 @@ const projects = [
     technologies: ['HTML', 'CSS', 'JavaScript'],
     liveLink: 'gregarious-cupcake-5d65a2.netlify.app/',
     sourceLink: 'https://github.com/mohashyne/Module-Capstone--2',
-    projectCover: './img/projects/project3.png',
+    projectCover: './img/projects/Snapshoot_Portfolio_3.svg',
     fullDescription: `
     World Vista is a dynamic web app using the Fetch API for country data. It offers details on culture, history, and attractions. Users can book tours, share comments, and like countries. Explore the world and connect with fellow travelers on World Vista.
           `,
@@ -54,7 +54,7 @@ const projects = [
     technologies: ['HTML', 'CSS', 'JavaScript'],
     liveLink: 'https://space-traveler-hub-qacv.onrender.com/',
     sourceLink: 'https://github.com/mohashyne/space-travelers-hub',
-    projectCover: './img/projects/project4.png',
+    projectCover: './img/projects/Snapshoot_Portfolio_4.svg',
     fullDescription: `
     Space Travelers Hub is a group project developed by Muhammad and Henok. The web application allows users to reserve and cancel rocket reservations while offering an enhanced user interface for visual clarity. The mission features include seamless action dispatching for rocket reservations and cancellations
           `,
@@ -84,7 +84,8 @@ function openPopup(index) {
                   </ul>
               </div>
   
-              <img src="./img/projects/Snapshoot_Portfolio_1.svg" alt="" class="popup__img">
+              <img src=${projects[index].image} alt="" class="popup__img">
+              
   
               <div class="popup__details">
                   <p class="popup__description">
